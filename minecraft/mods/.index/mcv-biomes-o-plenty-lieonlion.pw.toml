@@ -1,0 +1,29 @@
+filename = 'MoreChestVariants-BiomesOPlenty-1.1.0+1.20.2-Fabric.jar'
+name = "More Chests Variants - Biomes O' Plenty"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0+1.20.2-Fabric'
+
+[download]
+hash = '814a9b6b62cfafbdaef4610fab439323883525ccaea461f9498766d2c428708ce2bd0e6f0082c871a7e827f84d784ca09f90f4222d00da924bd1815d9a2b9eca'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oyJUwUv3/versions/JZckog87/MoreChestVariants-BiomesOPlenty-1.1.0%2B1.20.2-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'oyJUwUv3'
+version = 'JZckog87'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7jzrCiK0'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HXF82T3G'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HKKqmr2p'
+type = 'REQUIRED'

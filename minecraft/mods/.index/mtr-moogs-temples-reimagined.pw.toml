@@ -1,0 +1,21 @@
+filename = 'MoogsTemplesReimagined-universal-1.20-2.0.3.jar'
+name = 'MoogsTemplesReimagined'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.3'
+
+[download]
+hash = '9244aecab434511b1dfde5cc4ca342d019ffa20290d1819d650c34e412cab3a6560c32b0a0ca843fcb7fce43418f695cfbf2932bbb0dd1a184554ae44731d29c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UNanzCXS/versions/Gcx1X3Ji/MoogsTemplesReimagined-universal-1.20-2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'UNanzCXS'
+version = 'Gcx1X3Ji'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1oUDhxuy'
+type = 'REQUIRED'

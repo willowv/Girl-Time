@@ -1,0 +1,18 @@
+filename = 'villager_farmer_house-1.0.0 fabric 1.20.1.jar'
+name = 'Villager Farmer House'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'e2cb7924ddce4522d934ab4c4f7d53858e654fe06245d4da5968eb12c46dc4ff1178554866a069de7d05b6b3d668f2c332bfd3657ee6ee5425c5516ad1c5d07d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pizY5sSx/versions/WVEgekj4/villager_farmer_house-1.0.0 fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'pizY5sSx'
+version = 'WVEgekj4'

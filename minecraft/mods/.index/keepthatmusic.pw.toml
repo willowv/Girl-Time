@@ -1,0 +1,48 @@
+filename = 'keepthatmusic-1.0.1+1.16.5-1.21.5.jar'
+name = 'Keep That Music'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.16',
+    '1.16.1',
+    '1.16.2',
+    '1.16.3',
+    '1.16.4',
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'e3755d58c0b563b47bdfc34d50c5aa76212e8827ada062036db43745458d4a55999fa4121d1cbdba6179b80838f16db6cfd8f7a2db09a3a16bc848db3e98c27f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5ybsVotd/versions/plHLEkZS/keepthatmusic-1.0.1%2B1.16.5-1.21.5.jar'
+
+[update.modrinth]
+mod-id = '5ybsVotd'
+version = 'plHLEkZS'

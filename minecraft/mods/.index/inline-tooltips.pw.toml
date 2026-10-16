@@ -1,0 +1,29 @@
+filename = 'inline_tooltips-1.6.1+1.20.1-fabric.jar'
+name = 'Inline Tooltips'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6.1+1.20.1-fabric'
+
+[download]
+hash = '9c5adbea0a8b75f7161966f7c11315855e4e753d0d8a12f83ce973e7d54cbc89bbb6ee7e2133e7069a67445e42cc6a920bafa845f85d1be1fa4eac37783b4982'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TVOgzXyj/versions/1FRhxoaY/inline_tooltips-1.6.1%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'TVOgzXyj'
+version = '1FRhxoaY'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fin1PX4m'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

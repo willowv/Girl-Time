@@ -1,0 +1,17 @@
+{
+	"data": [
+		{
+			"priority": 1,
+			"mobId": "minecraft:horse"
+		},
+		{
+			"priority": 1,
+			"mobId": "minecraft:wolf"
+		},
+		{
+			"priority": 1,
+			"mobId": "minecraft:cat"
+		}
+	],
+	"configVersion": "0.2.1"
+}

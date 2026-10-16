@@ -1,0 +1,21 @@
+filename = 'Stackable Potions-fabric-1.20.1-1.0.0.jar'
+name = 'StackablePotions [Fabric]'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.X-1.0.0-fabric'
+
+[download]
+hash = '232d12ff320038ddd3a0aa8885519aead6b733b3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4627632
+project-id = 396596
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

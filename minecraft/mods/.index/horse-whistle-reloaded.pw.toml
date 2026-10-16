@@ -1,0 +1,21 @@
+filename = 'horse_whistle-S.V-1.0.0-1.20.1.jar'
+name = 'Horse Whistle Reloaded'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0-S.V-1.20.1'
+
+[download]
+hash = '40b13acbd9028484db6e0da19413192e647cc2c68f04349f42daa3890cea7f9f1e1afccd0479eb12585190cd78bb190a03b5180b20dedb3b61e63a0eddc17cd7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GNZqKyM5/versions/DH1eHs9I/horse_whistle-S.V-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'GNZqKyM5'
+version = 'DH1eHs9I'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,0 +1,22 @@
+filename = 'lanterns-belong-on-walls-1.6.1+1.20.1.jar'
+name = 'Lanterns Belong on Walls'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6.1+1.20.1'
+
+[download]
+hash = 'be361f2dcfdc9c91e59dfa1eeff3328c87741112da307f4c56cf189ce6f012935ec661e07e718e016711a3741e83cf5c4de2fc39ef132d033f130b6b98f7875e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V1CFwy2A/versions/VYSqdYTO/lanterns-belong-on-walls-1.6.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'V1CFwy2A'
+version = 'VYSqdYTO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'a9AsUNGn'
+type = 'REQUIRED'
+version = '2KmQiXlj'

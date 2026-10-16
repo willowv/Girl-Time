@@ -1,0 +1,25 @@
+filename = 'CraftTweaker-fabric-1.20.1-14.0.60.jar'
+name = 'CraftTweaker'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '14.0.60'
+
+[download]
+hash = '35b400facf98136d76b2e0cdc8a1642d1615f90d69cb904f8a936bc1407633c1c318d123cfa3d9e2d93a7817578a9da75fa9b116f170b4c81b9e6bc5ecd45abe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Xg35A4rS/versions/gQ5hs0IZ/CraftTweaker-fabric-1.20.1-14.0.60.jar'
+
+[update.modrinth]
+mod-id = 'Xg35A4rS'
+version = 'gQ5hs0IZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'E7ZFR7qk'
+type = 'REQUIRED'

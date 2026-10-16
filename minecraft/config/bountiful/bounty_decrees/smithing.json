@@ -1,0 +1,11 @@
+{
+    "name": "Smithing",
+	"objectives": [
+		"_metal_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"_metal_rews",
+		"_all_rews"
+	]
+}

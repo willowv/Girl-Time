@@ -1,0 +1,25 @@
+filename = 'SereneSeasons-fabric-1.20.1-9.1.0.3.jar'
+name = 'SereneSeasons'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '9.1.0.3'
+
+[download]
+hash = '579b7d48d3a244dfa454aba0e7f1c366e3d012cd7c55170fcec89b7db7506ae69d3c588ad0ce224e9f809189f5853fbaf406a9215ad26ddda31db4d299cd756d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/e0bNACJD/versions/GICZwCsE/SereneSeasons-fabric-1.20.1-9.1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'e0bNACJD'
+version = 'GICZwCsE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's3dmwKy5'
+type = 'REQUIRED'

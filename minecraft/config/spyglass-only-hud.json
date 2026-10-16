@@ -1,0 +1,8 @@
+{
+  "hideHud": true,
+  "overlayScale": 0.9,
+  "zoomEnabled": true,
+  "zoomSensitivity": 3.0,
+  "zoomSmoothness": 0.3,
+  "slowMouseWhileZooming": true
+}

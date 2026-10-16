@@ -1,0 +1,18 @@
+filename = 'FD Bark Cutting Compat by H3NZ.zip'
+name = "Farmer's Delight Bark Cutting Compat"
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'fc2e4601576002e9a324db277f3e55f4dbbc17726a9d7a7ac2d0ca30fc659b9957afc786bee2701d7edf6bc38c4eab3649fb671dbbf3f871bd47c6839e573f12'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h6HS8A5H/versions/mmjLub63/FD Bark Cutting Compat by H3NZ.zip'
+
+[update.modrinth]
+mod-id = 'h6HS8A5H'
+version = 'mmjLub63'

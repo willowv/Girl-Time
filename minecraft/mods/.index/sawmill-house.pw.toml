@@ -1,0 +1,18 @@
+filename = 'sawmillhouse-1.3.0 fabric 1.20.1.jar'
+name = 'Sawmill House'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = '48b7a26468123ecc7e60d513709dc6a830cb6f3e21bac3cdb0e580dd0d8a17f8ad8b47aa8e663f1c4b298ed3859c35952551c095b980bae4cbcab32dd71ffe84'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pnIz9L5P/versions/GcbL2Vbk/sawmillhouse-1.3.0 fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'pnIz9L5P'
+version = 'GcbL2Vbk'

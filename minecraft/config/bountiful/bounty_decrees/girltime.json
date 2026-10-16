@@ -1,0 +1,10 @@
+{
+    "name": "Hormone Replacement",
+	"objectives": [
+		"_estrogen_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"_all_rews"
+	]
+}

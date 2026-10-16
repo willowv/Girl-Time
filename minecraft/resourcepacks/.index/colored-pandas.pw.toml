@@ -1,0 +1,18 @@
+filename = 'Colored Pandas by Steche.zip'
+name = 'Colored Pandas'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '0dca7927d511c4e646dc796c122f4d1bde3beea9f3d7bfe07816dfa13283c420800d21e56d1aa95f4b6807b77bcf491d87714de2021e55ca7bfd15277f34cad2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i2bw6tGc/versions/qcC6eWOo/Colored Pandas by Steche.zip'
+
+[update.modrinth]
+mod-id = 'i2bw6tGc'
+version = 'qcC6eWOo'

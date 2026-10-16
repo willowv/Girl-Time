@@ -1,0 +1,89 @@
+filename = 'variantbookshelves-2.3.8.jar'
+name = 'Variant Bookshelves [Fabric]'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'VariantBookshelves-Fabric-2.3.8+1.20.1'
+
+[download]
+hash = 'e6739d80284e87b0d1e9da3a6ba2b9f2147cc34b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5023616
+project-id = 653372
+
+[[x-prismlauncher-dependencies]]
+addonId = '618790'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '871962'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '835687'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659011'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '877553'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '635042'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '858691'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '421839'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '704465'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '412182'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '907816'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '394915'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '414851'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '399648'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '312289'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659110'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '233564'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '391429'
+type = 'OPTIONAL'

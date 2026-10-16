@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "maxMusicDelay": -1,
+  "stopMenuMusicOnJoin": false,
+  "stopMusicOnReturnToMenu": false,
+  "debug": false
+}

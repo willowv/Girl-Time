@@ -1,0 +1,18 @@
+filename = 'WalksyCompleteShieldFixes-1.20.1.jar'
+name = 'Shield Fixes'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = 'dcbdab30810e7e96e7feae5e7a6e1cc3e2a6d83e37e976a1ae58cb9720141ffefe2118135b5ca94c946a2c9b014f4d0a6c8f5839d72fd72b5a003a63f89d5947'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HfLFMeJe/versions/eb3t0Cmy/WalksyCompleteShieldFixes-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'HfLFMeJe'
+version = 'eb3t0Cmy'

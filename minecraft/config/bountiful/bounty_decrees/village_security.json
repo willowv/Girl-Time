@@ -1,0 +1,10 @@
+{
+    "name": "Defense",
+	"objectives": [
+		"_monster_hunting_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"_all_rews"
+	]
+}

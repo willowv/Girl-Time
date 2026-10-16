@@ -1,0 +1,18 @@
+filename = '§l3D§f+Ladders+v1.1.zip'
+name = '3D Ladders'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = '172a7a1c6e3b5e884fac933e6637f2e1ea0eb012d1bc42f38707123b2598acc8b04fc6a9e9e237e635c473f9eef78851f44d067e2e8c0b42b820e88d2a7a4625'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ti9eZ3CP/versions/4t6UmIZn/§l3D§f%2BLadders%2Bv1.1.zip'
+
+[update.modrinth]
+mod-id = 'ti9eZ3CP'
+version = '4t6UmIZn'

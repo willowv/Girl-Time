@@ -1,0 +1,21 @@
+filename = 'spyglass-only-hud-1.3.0-1.20.1.jar'
+name = 'Spyglass Only HUD'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = '05f100077313a05c3535e10dbc3f42a94ebc0bec36b12049c6a69f1dd897bcbfa8f3624c966ba1c23308140e46f9b26ddf95427dc85cd3069c253e2b31ff4660'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QcFGZGs4/versions/HYHQa5Jn/spyglass-only-hud-1.3.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'QcFGZGs4'
+version = 'HYHQa5Jn'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

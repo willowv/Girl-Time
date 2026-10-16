@@ -1,0 +1,25 @@
+.gitignore
+.git
+minecraft/.cache
+minecraft/.fabric
+minecraft/.mixin.out
+minecraft/coremods
+minecraft/crash-reports
+minecraft/ct-dumps
+minecraft/data
+minecraft/defaultconfigs
+minecraft/EnhancedCats
+minecraft/logs
+minecraft/moddata
+minecraft/moonlight-global-datapacks
+minecraft/saves
+minecraft/schematics
+minecraft/screenshots
+minecraft/server-resource-packs
+minecraft/sparsestructures
+minecraft/texturepacks
+minecraft/emi.json
+minecraft/irisUpdateInfo.json
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/Mod notes.txt

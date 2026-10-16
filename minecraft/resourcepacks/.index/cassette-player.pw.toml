@@ -1,0 +1,18 @@
+filename = 'CassettePlayerV1.zip'
+name = 'Cassette Player!'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.21' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-1.21'
+
+[download]
+hash = '358774a53460e13b9362742aa07f043ea4a097665c478ad360a5ed41751301c798574980a4e4bf042fb82e7ad6cffe5f8beb674ce44ee8e532ab0d39c23cadac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pbglPZqJ/versions/9almW0vy/CassettePlayerV1.zip'
+
+[update.modrinth]
+mod-id = 'pbglPZqJ'
+version = '9almW0vy'

@@ -1,0 +1,62 @@
+filename = '§6Leader of the Pack v1.0.zip'
+name = 'Wolf Variants Backport'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.13',
+    '1.13.1',
+    '1.13.2',
+    '1.14',
+    '1.14.1',
+    '1.14.2',
+    '1.14.3',
+    '1.14.4',
+    '1.15',
+    '1.15.1',
+    '1.15.2',
+    '1.16',
+    '1.16.1',
+    '1.16.2',
+    '1.16.3',
+    '1.16.4',
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '4d7b463f0fa9bc5ba74736ff3671116591e21e34c270df8ca9b66406885bf2c6e92a0f8bd893ec67cf486b21b7aa0444075a0e2c3e924c3eb7aaf111322d692d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MQ3yfzfz/versions/AU1kvWFg/§6Leader of the Pack v1.0.zip'
+
+[update.modrinth]
+mod-id = 'MQ3yfzfz'
+version = 'AU1kvWFg'

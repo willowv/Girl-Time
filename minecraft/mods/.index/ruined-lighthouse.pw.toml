@@ -1,0 +1,18 @@
+filename = 'ruined_lighthouse-1.0.1 fabric 1.20.1.jar'
+name = 'Ruined Lighthouse'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '7fde03f4fcb4717926c8935fd7eeb6e1296aef13b9f729e00b8f3edde04bf735b0e1b3302191ae65a5f9a237a305fb10f240e3a2f79f747c8dc9911c88c4947e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iL1XCFN3/versions/uNj4cFK8/ruined_lighthouse-1.0.1 fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'iL1XCFN3'
+version = 'uNj4cFK8'

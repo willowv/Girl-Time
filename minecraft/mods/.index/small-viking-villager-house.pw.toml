@@ -1,0 +1,18 @@
+filename = 'small_viking_villager_house-1.0.0 fabric 1.20.1.jar'
+name = 'Small Viking Villager House'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'ff1b083049a1c8f3d09358444701c784d5e1e9e8a7de2d01c341d661c3160dcc3a3aa3f2009866e4cf14e7af38f5ff9f66f15afaaf56f3fa866f8e087dd2f659'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6ftMrbF5/versions/jrbZlHXb/small_viking_villager_house-1.0.0 fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = '6ftMrbF5'
+version = 'jrbZlHXb'

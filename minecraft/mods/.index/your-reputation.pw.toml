@@ -1,0 +1,27 @@
+filename = 'your-reputation-0.2.4+jade.1.20.jar'
+name = 'Your Reputation'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.4+jade.1.20'
+
+[download]
+hash = '5f2aea9164afe63cf517d1a5a136ff1e1483ab353d3b81984a16e19c8bcbcb70b7042ed308e13434ddde3207131c4b36921d215742d7f54f6c0871e05e2e2c4b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MrLyhFlg/versions/gDiKwohD/your-reputation-0.2.4%2Bjade.1.20.jar'
+
+[update.modrinth]
+mod-id = 'MrLyhFlg'
+version = 'gDiKwohD'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'XheZ9iGK'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'REQUIRED'
+version = 'P36LnXE0'

@@ -1,0 +1,18 @@
+filename = 'MoreBarrelVariants-2.1.0+1.20.1-Fabric.jar'
+name = 'More Barrel Variants'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.0'
+
+[download]
+hash = '06840b593cbe13221d11ca451317c4ba17673a5fbbab73045caff1f3c6cceb3bad711a02d59fe116242529ac8320988891fb6726624b6f22b79c7b0eea231613'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/g4AhyGgi/versions/iyviR0Ll/MoreBarrelVariants-2.1.0%2B1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'g4AhyGgi'
+version = 'iyviR0Ll'

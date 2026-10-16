@@ -1,0 +1,18 @@
+filename = 'data_trades-fabric-2.1.1.jar'
+name = 'Data Trades'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'b419865803e627e88d4692bf3471b2d966cd3d380a762e4b37f6f9ac2b909de79357ddbacfc3d61edd19d775a9467d7d9deb867922153aa086995835f4f3b4f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nm1MuVrD/versions/moCWIRJ3/data_trades-fabric-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'nm1MuVrD'
+version = 'moCWIRJ3'

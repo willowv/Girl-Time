@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "globalFrequency": 1.0,
+  "passiveFrequency": 0.15,
+  "villagerFrequency": 0.1,
+  "hostileFrequency": 0.35,
+  "waterFrequency": 0.2,
+  "ambientFrequency": 0.2,
+  "otherFrequency": 0.25,
+  "muffleMobFootsteps": true,
+  "mobFootstepVolume": 0.35,
+  "mobHurtSoundVolume": 1.0,
+  "alwaysAudible": [],
+  "fullyMuted": [],
+  "perMobFrequency": []
+}

@@ -1,0 +1,122 @@
+{
+	"replace": true,
+    "content": {
+
+		"all_rew_primary_currency": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:emerald"
+                },
+				{
+					"type": "item",
+					"content": "minecraft:emerald_block"
+				}
+            ],
+			"unitWorth": 909
+		},
+
+		"all_rew_primary_currency_level_2": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 4,
+				"max": 8
+			},
+			"forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:emerald"
+                },
+				{
+					"type": "item",
+					"content": "minecraft:emerald_block"
+				}
+            ],
+			"unitWorth": 909
+		},
+
+		"all_rew_primary_currency_level_3": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 8,
+				"max": 12
+			},
+			"forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:emerald"
+                },
+				{
+					"type": "item",
+					"content": "minecraft:emerald_block"
+				}
+            ],
+			"unitWorth": 909
+		},
+
+		"all_rew_primary_currency_level_4": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 12,
+				"max": 16
+			},
+			"forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:emerald"
+                },
+				{
+					"type": "item",
+					"content": "minecraft:emerald_block"
+				}
+            ],
+			"unitWorth": 909
+		},
+
+		"all_rew_primary_currency_level_5": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 16,
+				"max": 20
+			},
+			"forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:emerald"
+                },
+				{
+					"type": "item",
+					"content": "minecraft:emerald_block"
+				}
+            ],
+			"unitWorth": 909
+		},
+
+		"all_rew_decree": {
+			"type": "item",
+			"rarity": "RARE",
+			"repRequired": 1,
+			"content": "bountiful:decree",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800
+		}
+	}
+}

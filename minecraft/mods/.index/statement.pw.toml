@@ -1,0 +1,21 @@
+filename = 'Statement-4.2.9+1.14.4-1.20.4.jar'
+name = 'Statement'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.14.4', '1.15.2', '1.16.5', '1.17.1', '1.18.2', '1.19.2', '1.19.4', '1.20.1', '1.20.2', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.2.9+1.14.4-1.20.4'
+
+[download]
+hash = '2fbed07e5bc03b4dea1f6beae37e9401372e5071fd762ed8b621182cb8fd81e3c367c982c64aeeaf2c7b1d532cd60370e7ad172d1d2c264ed1a7d601bde2d744'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/a9AsUNGn/versions/6MFwerG8/Statement-4.2.9%2B1.14.4-1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'a9AsUNGn'
+version = '6MFwerG8'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'OPTIONAL'

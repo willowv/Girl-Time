@@ -1,0 +1,44 @@
+{
+  "_quiver_position_options": "back, leg, force_back",
+  "quiver_position": "back",
+  "_leg_side_options": "left, right",
+  "hip_side": "left",
+  "show_strap": true,
+  "enable_wiggle": true,
+  "render_quiver": true,
+  "auto_fill": true,
+  "enchantment_glint": true,
+  "auto_refill_enchantment": true,
+  "auto_refill_loot_entries": [
+    {
+      "table": "minecraft:chests/nether_bridge",
+      "chance": 6
+    },
+    {
+      "table": "minecraft:chests/bastion_treasure",
+      "chance": 6
+    }
+  ],
+  "quiver_loot_entries": [
+    {
+      "table": "minecraft:chests/simple_dungeon",
+      "chance": 12
+    },
+    {
+      "table": "minecraft:chests/stronghold_corridor",
+      "chance": 12
+    },
+    {
+      "table": "minecraft:chests/stronghold_crossing",
+      "chance": 12
+    },
+    {
+      "table": "minecraft:chests/pillager_outpost",
+      "chance": 12
+    },
+    {
+      "table": "minecraft:chests/village/village_fletcher",
+      "chance": 12
+    }
+  ]
+}

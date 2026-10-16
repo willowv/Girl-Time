@@ -1,0 +1,36 @@
+{
+    "content": {
+        "all_obj_estrogen": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "estrogen:estrogen_pill",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 526
+        },
+
+		"estrogen_cookie_obj": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "estrogen:estrogen_chip_cookie",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 526
+        },
+		
+		"all_obj_estrogen_block": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "estrogen:estrogen_pill_block",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 4734
+        }
+    }
+}

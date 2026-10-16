@@ -1,0 +1,11 @@
+{
+    "name": "Portal Exploration",
+	"objectives": [
+		"_nether_diving_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"potion_rews",
+		"_all_rews"
+	]
+}

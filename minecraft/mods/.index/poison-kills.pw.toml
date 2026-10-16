@@ -1,0 +1,18 @@
+filename = 'poisonkills-1.20.1-2.0-ml.jar'
+name = 'Poison Kills'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = '6bad075f2914561d15e6dcc3a4d8d75a478dc23c8f69fb86ce8f64ba4fd60b2675e3a214d5d2a141b8a6e9ce4067317218715de31f963f507fdf4c05fb4ee0f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xbtylW15/versions/96Zcdrk3/poisonkills-1.20.1-2.0-ml.jar'
+
+[update.modrinth]
+mod-id = 'xbtylW15'
+version = '96Zcdrk3'

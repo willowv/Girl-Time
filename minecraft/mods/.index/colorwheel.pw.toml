@@ -1,0 +1,37 @@
+filename = 'colorwheel-fabric-1.3.0+mc1.20.1.jar'
+name = 'Colorwheel'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0+mc1.20.1'
+
+[download]
+hash = '9f526d25a676ced3bab3600a68e74577f22d538c9c2e3d2f93bf0da1a867c262f407872302afcc06a3928243aa5f0b90c58684e8602b860f8dfd190c40688233'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BzHgFoGz/versions/4uAiG406/colorwheel-fabric-1.3.0%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'BzHgFoGz'
+version = '4uAiG406'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KPsw5jDu'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ndHYMY2K'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6qTrsXCy'
+type = 'OPTIONAL'

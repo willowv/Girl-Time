@@ -1,0 +1,18 @@
+filename = 'villager_clock_tower-1.0.2 Fabric 1.20.1.jar'
+name = 'Villager Clock Tower'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'baf6f10cc5207febb21037ecaa625e6ca7bbb873c1ecdbc45e58b01a2bc706166d1b653830223f7a582c08a4e927aa212d661f77a5a33dea2cacb49c1be8815c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VYkt6lrv/versions/S95rQeMd/villager_clock_tower-1.0.2 Fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'VYkt6lrv'
+version = 'S95rQeMd'

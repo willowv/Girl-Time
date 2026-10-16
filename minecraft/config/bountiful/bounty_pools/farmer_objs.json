@@ -1,0 +1,207 @@
+
+{
+	"replace": true,
+    "content": {
+
+        "farmer_obj_wheat": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:wheat",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 58
+		},
+
+		"farmer_obj_beetroot": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:beetroot",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 75
+		},
+
+		"farmer_obj_carrot": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:carrot",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 53
+		},
+
+
+		"farmer_obj_potato": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:potato",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 45
+		},
+
+        "farmer_obj_rice": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:rice",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 59
+		},
+
+        "farmer_obj_tomato": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:tomato",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 44
+		},
+
+        "farmer_obj_onion": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "farmersdelight:onion",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 45
+		},
+
+        "farmer_obj_cabbage": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:cabbage",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 71
+		},
+
+        "farmer_obj_melon": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:melon",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 271
+		},
+
+        "farmer_obj_pumpkin": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:pumpkin",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 193
+		},
+
+        "farmer_obj_wheat_bundle": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:hay_block",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 522
+		},
+
+		"farmer_obj_beetroot_bundle": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "farmersdelight:beetroot_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 675
+		},
+
+		"farmer_obj_carrot_bundle": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:carrot_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 477
+		},
+
+
+		"farmer_obj_potato_bundle": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:potato_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 405
+		},
+
+        "farmer_obj_rice_bundle": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:rice_bag",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 531
+		},
+
+        "farmer_obj_tomato_bundle": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:tomato_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 396
+		},
+
+        "farmer_obj_onion_bundle": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:onion_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 396
+		},
+
+        "farmer_obj_cabbage_bundle": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "farmersdelight:cabbage_crate",
+			"amount": {
+				"min": 7,
+				"max": 16
+			},
+			"unitWorth": 639
+		}
+	}
+
+}

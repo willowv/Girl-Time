@@ -1,0 +1,31 @@
+filename = 'respawnablepets-1.20-1.jar'
+name = 'Respawnable Pets'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-1'
+
+[download]
+hash = '583b6cdb7ea4615a5e848ac0530b75a86ba1e6fcc4ea677456f86efef53858dd45746ebfc8287bb1246e558face38c9eda439feedbd5d6834eb994cc8ee97ac4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gbFe1FWa/versions/Q5VMPADX/respawnablepets-1.20-1.jar'
+
+[update.modrinth]
+mod-id = 'gbFe1FWa'
+version = 'Q5VMPADX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'codAaoxh'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'K01OU20C'
+type = 'EMBEDDED'
+version = 'qW85eawp'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'XheZ9iGK'

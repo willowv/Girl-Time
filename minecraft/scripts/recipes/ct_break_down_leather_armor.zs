@@ -1,0 +1,1 @@
+<recipetype:farmersdelight:cutting>.addRecipe("leather_from_leather_items", <tag:items:c:leather_items>, [<item:minecraft:leather> * 3 % 75], <tag:items:c:shears>);

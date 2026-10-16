@@ -1,0 +1,94 @@
+{
+	"replace": true,
+    "content": {
+
+        "metal_obj_lava_bucket": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:lava_bucket",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1804
+        },
+
+		"metal_obj_coal": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:coal",
+			"amount": {
+				"min": 4,
+				"max": 16
+			},
+			"unitWorth": 85
+		},
+
+		"metal_obj_raw_copper": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:raw_copper",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 150
+		},
+
+		"metal_obj_raw_zinc": {
+			"type": "item",
+			"content": "create:raw_zinc",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 909
+		},
+
+		"metal_obj_andesite": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:andesite",
+			"amount": {
+				"min": 1,
+				"max": 64
+			},
+			"unitWorth": 42
+		},
+
+		"metal_obj_raw_iron": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:raw_iron",
+			"amount": {
+				"min": 3,
+				"max": 10
+			},
+			"unitWorth": 301
+		},
+
+
+		"metal_obj_raw_gold": {
+			"type": "item",
+			"content": "minecraft:raw_gold",
+			"rarity": "UNCOMMON",
+			"amount": {
+				"min": 3,
+				"max": 10
+			},
+			"unitWorth": 451
+		},
+
+		"metal_obj_diamond": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:diamond",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2706
+		}
+	}
+}

@@ -1,0 +1,21 @@
+filename = 'puzzledungeon-1.2.0.jar'
+name = "Masik's Puzzle Dungeon"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0'
+
+[download]
+hash = '7f9f28d87a902fc48350b4d185dccdc3804b55b52be97d76b320cd2f349a8e6d9d3a6eb47136469819e099d5434dc979b8d634ea8d8c8f21d3784f9f298d7e4d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/55LTlbik/versions/gB3d34iR/puzzledungeon-1.2.0.jar'
+
+[update.modrinth]
+mod-id = '55LTlbik'
+version = 'gB3d34iR'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

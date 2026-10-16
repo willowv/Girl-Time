@@ -1,0 +1,239 @@
+Mod notes
+
+x Experience curve for beast mastery is very silly; getting a horse is way too strong. also I think the buffs are probably too good.
+x Spice of life - need to ban raw and poisonous foods
+x Structure rarity feels about right so far
+x Terrain generation feels a little off? Might want to try disabling some things and just seeing how Vanilla with Biomes o Plenty feels
+x Can I make it so the player starts with a nametag for their dog?
+x personal horse/horse summoning mod?
+x use food tweaker to make raw meat, rotten flesh, spider eyes, raw milk give poison
+x configure zenith attributes, use them in skill progression
+x see if I can make breaking instant blocks not grant xp [x]
+x something is broken with shield blocking
+x hunger is a little hard to manage currently
+x structures might be a bit too sparse
+x make it so logs give you athletics xp too
+x wolf summoning
+x parrots??
+x boats are cooler
+x right-click to harvest
+x rabbit noises
+x need to be able to cut crops with knife
+x didn't receive my gift when i took a gift skill
+x attach lanterns to walls
+x less sleeping hunger
+x cutting board incompatible with biomes o plenty wood
+x trees don't chop down all the way when very tall, and are too quick/easy to chop down
+x panda texture is missing lol
+x sheep wool is fucked up
+x shouldn't see the weather from the clock accessory
+x more weapons?
+x potions stack
+x villagers don't breed without workstations available
+x don't let cats die
+x better iron doors
+x easier to find nether fortress
+x remove arrow slots from accessories
+x Some kind of way to select which arrows you're using?
+x nether flora into dye recipes - warped: blue (or green, and add lapis ore to the nether) and crimson: red; what does biomes o plenty add?
+x modify quiver recipe to only cost 2 leather 1 string
+x one enough item - remap biomes rose quartz to be create rose quartz
+x remove gatherer dogs?
+x explorer compass that can only see nether fortresses?
+x maybe limit the backpacks more
+x pets don't stand in fire????
+x accessories aren't lost on death: (either allowlist these or modify reliable requiem)
+x make special backpacks uncraftable / remove them
+x make the rose quartz stone cutting recipes use the biomes o plenty rose quartz block
+x update infinity book gift to be conservation II instead
+- <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2, id: "minecraft:infinity"}]})
+x tipped arrows should give both magic and ranged xp
+x i would kind of be into days being half as fast
+x create estrogen bounties
+x create estrogen trades
+
+
+x right click harvesting rice with knife gives no rice - denylist in the harvesting mod
+x camel texture is broken
+x toolsmith should sell buckets, shears
+x armorer should sell shields
+x something is wrong with sleeping bag, not sure what
+x make sure spyglass is death-keep
+x farmer should sell eggs
+x fishermen should buy fish if they don't
+
+x make effects appear above inventory - can't be done
+x rosy maple wool into moth fuzz
+x change compass recipe to use iron nuggets
+x keep accessories didn't work (at least in the nether)
+x explorer's compass couldn't find a nether fortress in 10,000 blocks
+x no trading rabbit meat
+
+x retheme explorer's compass as a magic compass
+x tweak wolf rules (add fire resistance and fall damage resistance?)
+x sound attenuation
+x remove vanilla shield
+x less portal noises
+x keep playing music on pause
+x mobs attempt parkour - limit to pets?
+
+x add new weapons to weaponsmith
+<item:basicweapons:iron_dagger>
+<item:basicweapons:diamond_dagger>
+<item:basicweapons:iron_hammer>
+club, spear, quarterstaff, glaive
+
+x add new shields to armorer
+<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2, id: "mob-ai-tweaks:perfect_parry"}]})
+<item:shieldexp:iron_shield>
+
+x add explorer's compass to cartographer trades
+<item:explorerscompass:explorerscompass>
+
+x give shepherds the rosy maple forest map and allow them to buy moth wool for better prices
+- get rosy maple forest bracket
+
+x farmer sells calendars, compost, seeds
+<item:sereneseasons:calendar>
+<item:farmersdelight:milk_bottle>
+<item:farmersdelight:apple_cider>
+<item:farmersdelight:rice>
+<item:farmersdelight:onion>
+<item:farmersdelight:cabbage_seeds>
+<item:farmersdelight:tomato_seeds>
+<item:farmersdelight:organic_compost>
+
+x leatherworker sells saddles, quivers, backpacks, backpack upgrades
+<item:minecraft:saddle>
+<item:quiver:quiver>.withTag({ArrowSlots: []})
+<item:quiver:iron_quiver>.withTag({ArrowSlots: []})
+<item:quiver:diamond_quiver>.withTag({ArrowSlots: []})
+<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "quiver:auto_refill"}]})
+<item:travelersbackpack:standard>.withTag({StarterUpgrades: {Items: [{id: "travelersbackpack:tanks_upgrade", Count: 1}]}})
+<item:travelersbackpack:blank_upgrade>
+
+x customize village business prices for farmersdelight foods
+<item:farmersdelight:cabbage>
+<item:farmersdelight:tomato>
+<item:farmersdelight:onion>
+<item:farmersdelight:rice>
+<item:farmersdelight:cabbage_leaf>
+<item:farmersdelight:mixed_salad>
+<item:farmersdelight:pumpkin_slice>
+<item:farmersdelight:carrot_crate>
+<item:farmersdelight:potato_crate>
+<item:farmersdelight:beetroot_crate>
+<item:farmersdelight:cabbage_crate>
+<item:farmersdelight:tomato_crate>
+<item:farmersdelight:onion_crate>
+<item:farmersdelight:rice_bag>
+<item:farmersdelight:straw_bale>
+<item:minecraft:hay_block>
+
+x customize village business prices for estrogen
+<item:estrogen:estrogen_pill>
+<item:estrogen:estrogen_chip_cookie>
+<item:estrogen:moth_fuzz>
+<item:estrogen:moth_wool>
+<item:estrogen:quilted_moth_wool>
+
+x purge rabbit meat from village business
+x purge rabbit meat from bountiful
+x dead reckoning is maybe causing a crash when trying to use the default slot
+x I also think I saw a crash when I double-click equipped the spyglass
+x rework fisherman
+x rework shepherd
+
+x quieter/better sounding villagers
+
+X more paintings?
+x paintings should be made with item frame, canvas, and red, green, blue, black, and white dye
+x trans tights should be gettable from tights + light blue, white, and pink dye
+
+x overhaul bounties
+x cut up leather armor into leather
+x put inventory essentials back in and remove tidyINV
+x get rid of trading post
+x consider something that makes the fishing minigame more interesting/fun
+x carry-on or some other way to easily move chests 
+
+the balance of purchase vs sell trades and trades that are useful early game is off
+
+boat item view is maybe not working, at least for antique atlas
+
+x make the horse whistle a beastmaster level up reward
+x make the etheric gem a beastmaster level up reward
+<item:horse_whistle:horse_whistle_item>
+<item:respawnablepets:etheric_gem>
+x make them both keep on death
+
+quieter animals / less frequent idle sound events
+x make blackstone bulb drop itself
+make all pride tights craftable with dye
+x update village business to reflect low volume sales (since trading is mid-volume and bounties are high volume)
+x - also screen for just consumable items villagers might want to buy
+x have the wandering trader sell random cassettes
+x finish updating trades to use the new datapack system
+consider making farming objectives the default instead of adding all the random woodworking
+make peonies and rose bushes cuttable
+trading skill tree which gives you the trading post, sales table, request table, decrees, and bounty boards?
+- any way to have it give you +1 global reputation?
+start players with the flower sack and seed sack (and keep these on death)
+add a localization string for wearable quivers trinket slot
+x either switch back to Trinkets (+ Season HUD, Clock GUI, and Dead Reckoning) or figure out why the quiver unequips
+- quiver unequips because of dead migration code in the repo; I have a message out to the maintainer about fixing
+
+Mod-writing
+x add a deny-list or allowlist feature to spice of fabric carrot mode (and remove food tweaks)
+extract everything but stealing/anger from Living Villages
+write a mod that doesn't let you sleep in the rain
+improved pet AI - don't step in hazards or fall off cliffs, try to jump over things
+
+map to the nearest village?
+atlas
+<item:aa4-atlas:antique_atlas> - x add to c:compasses, dead_reckoning:compasses, minecraft:compasses
+
+slurp bags
+<item:slurpbags:seed_bag>
+<item:slurpbags:flower_bag>
+<item:slurpbags:sapling_bag>
+
+x remove crafting for slurp bags, atlas, horse whistle, and etheric gem
+
+x maps need names, red X markers
+x random selections aren't random enough, too easy to get duplicates
+x seamless trading seems kind of fucky
+something might be up with world generation
+x update trade discount rate for all trades
+x update trade pricing to optimize for discount granularity
+update loot tables
+x update mason and fisherman random trades to not duplicate
+
+x make work sounds and animal sounds quieter
+x - adjust sound with mods instead of directly in the sound file
+
+
+x turn skills config into a mod
+x upload voices resource pack
+x turn trades datapack into a mod which includes data trades
+x consume trades mod instead of data trades
+x upload version 1.1.0 for solcc
+x clean out unused configs
+
+horse whistle doesn't work if you're too far away
+give horse whistle infinite durability
+// Forking my own horse whistle repo.
+// Still want to figure out if I can get around the chunk loading restriction but will need to ask on discord most likely
+
+some villages generate without an icon on the atlas and don't have waystones
+remove crystal hearts added by reliable requiem
+turn off medium and large villages
+reduce loot counts for village chests
+missing panda textures
+add more villager names
+remove slurp bags and add bundles instead?
+look at modrinth loot mods like loot integrations
+try adding seamless trading back in
+update voices resource pack version on modrinth and add a note encouraging people to use the Quieter Mobs mod
+Remove dynamic sound culling? I don't think it's actually what I want, unless I can restrict it to just the idle noises
+look at WTHIT as an alternative to Jade, see what's different about it

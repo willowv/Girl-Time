@@ -1,0 +1,252 @@
+
+{
+	"replace": true,
+    "content": {
+
+		"butcher_rew_smoked_ham": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "farmersdelight:smoked_ham",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "farmersdelight:ham"
+				}
+			],
+			"unitWorth": 300
+		},
+
+		"butcher_rew_cabbage_rolls": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "farmersdelight:cabbage_rolls",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:porkchop"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:chicken"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:mutton"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:beef"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:egg"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:cod"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:salmon"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:tropical_fish"
+				}
+			],
+			"unitWorth": 450
+		},
+
+		"butcher_rew_barbecue_stick": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:barbecue_stick",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:porkchop"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:chicken"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:mutton"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:beef"
+				}
+			],
+			"unitWorth": 600
+		},
+
+		"butcher_rew_egg_sandwich": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:egg_sandwich",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:egg"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				}
+			],
+			"unitWorth": 600
+		},
+		"butcher_rew_bacon_sandwich": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:bacon_sandwich",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:porkchop"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				}
+			],
+			"unitWorth": 600
+		},
+		"butcher_rew_chicken_sandwich": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:chicken_sandwich",
+			"amount": {
+				"min": 2,
+				"max": 4
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:chicken"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				}
+			],
+			"unitWorth": 600
+		},
+		"butcher_rew_hamburger": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "farmersdelight:hamburger",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:beef"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				}
+			],
+			"unitWorth": 750
+		},
+		"butcher_rew_mutton_wrap": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "farmersdelight:mutton_wrap",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:mutton"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				}
+			],
+			"unitWorth": 750
+		},
+		"butcher_rew_honey_glazed_ham": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "farmersdelight:honey_glazed_ham",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "farmersdelight:ham"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:sweet_berries"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:honey_bottle"
+				},
+				{
+					"type": "item",
+					"content": "farmersdelight:rice"
+				},
+				{
+					"type": "item",
+					"content": "farmersdelight:rice_bag"
+				}
+			],
+			"unitWorth": 3600
+		},
+		"butcher_rew_roast_chicken": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "farmersdelight:roast_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:bread"
+				},
+				{
+					"type": "item",
+					"content": "minecraft:chicken"
+				}
+			],
+			"unitWorth": 3600
+		}
+
+	}
+
+}

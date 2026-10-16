@@ -1,0 +1,112 @@
+{
+  "taming": {
+    "singleBoneToTame": false,
+    "maxTamedWolvesLimit": 2,
+    "starterWolfCount": 0,
+    "puppiesAutoSit": false
+  },
+  "core_stats": {
+    "defaultMaxHealth": 0.0,
+    "defaultArmor": 0.0,
+    "defaultArmorToughness": 0.0,
+    "attackDamage": 0.0,
+    "attackRate": 0,
+    "attackRange": 0.0,
+    "wolfBaseSpeed": 0.0,
+    "wolfStepHeight": 0.0
+  },
+  "survival": {
+    "selfHealingEnabled": true,
+    "selfHealingRate": 30.0,
+    "fireResistanceEnabled": true,
+    "damageResistanceLevels": 0,
+    "allDamageInvulnerability": false,
+    "fallDamageMultiplier": 0.0,
+    "wolfRespawnMode": "no_respawn",
+    "fallenWolfRespawnDelaySeconds": 300.0,
+    "seekOwnerWhenLowHealthPercent": 33.0,
+    "lowHealthDisengagePercent": 33.0,
+    "autoTargetMinHealthPercent": 33.0,
+    "lowHealthGlowPercent": 10.0
+  },
+  "feeding": {
+    "rottenFleshAutoEatEnabled": true,
+    "rottenFleshHealAmount": 4.0,
+    "rottenFleshSearchRadius": 1.5,
+    "rottenFleshEatCooldown": 0.25
+  },
+  "follow": {
+    "followDistanceMin": 3.0,
+    "followDistanceMax": 10.0,
+    "teleportRange": 32.0,
+    "temporaryCatchUpSpeedBoost": 1.2,
+    "followThroughTeleports": true,
+    "followThroughDimensions": "wolves_tp_with_you",
+    "preventWolfPortalTravel": false,
+    "chunkLoadingMode": "all_wolves",
+    "chunkLoadingIgnoreMode": "ignore_sitting_or_passengers"
+  },
+  "pack_commands": {
+    "sitStandAllCommandEnabled": false,
+    "recallCommandEnabled": false,
+    "commandRadius": 0.0,
+    "blackCollarIgnoresMassCommands": false
+  },
+  "collision": {
+    "noPushMode": "player_to_wolf_only"
+  },
+  "owner_presence": {
+    "sitWolvesOnOwnerLogout": false,
+    "restoreStandingWolvesOnOwnerLogin": false,
+    "ownerLoginRestoreWindowSeconds": 30.0,
+    "ownerDeathBehavior": "teleport_to_respawned_owner"
+  },
+  "combat": {
+    "friendlyFireAvoidanceEnabled": true,
+    "wolvesNeverAttackPlayers": false,
+    "wildWolvesNeverAngryAtPlayers": false,
+    "battleSummonOrderEnabled": true,
+    "battleSummonMaxCount": 2,
+    "battleSummonDesignationMode": "all_wolves",
+    "autoBattleSummonHealthPercent": 0.0,
+    "targetPriorityMode": "closest_to_wolf_first",
+    "diverseTargetDistributionEnabled": true,
+    "wolvesAutoEngageZombies": false,
+    "wolvesNeverTargetZombieVillagers": false,
+    "creeperTargetOwnerRetaliationOnly": true,
+    "combatLeashMaxDistance": 10.0,
+    "autoEngageEntityList": [],
+    "protectedEntityBlacklist": []
+  },
+  "safety_caps": {
+    "maxTamedWolvesLimit": 512,
+    "starterWolfCount": 32,
+    "defaultMaxHealth": 2048.0,
+    "defaultArmor": 30.0,
+    "defaultArmorToughness": 20.0,
+    "attackDamage": 100.0,
+    "attackRate": 200,
+    "attackRange": 16.0,
+    "wolfBaseSpeed": 1.5,
+    "wolfStepHeight": 5.0,
+    "selfHealingRate": 1200.0,
+    "damageResistanceLevels": 5,
+    "fallDamageMultiplier": 4.0,
+    "fallenWolfRespawnDelaySeconds": 86400.0,
+    "rottenFleshHealAmount": 40.0,
+    "rottenFleshSearchRadius": 64.0,
+    "rottenFleshEatCooldown": 1200.0,
+    "followDistanceMin": 64.0,
+    "followDistanceMax": 64.0,
+    "teleportRange": 128.0,
+    "temporaryCatchUpSpeedBoost": 4.0,
+    "commandRadius": 128.0,
+    "battleSummonMaxCount": 64,
+    "ownerLoginRestoreWindowSeconds": 600.0,
+    "seekOwnerWhenLowHealthPercent": 100.0,
+    "lowHealthDisengagePercent": 100.0,
+    "autoTargetMinHealthPercent": 100.0,
+    "lowHealthGlowPercent": 100.0,
+    "combatLeashMaxDistance": 512.0
+  }
+}

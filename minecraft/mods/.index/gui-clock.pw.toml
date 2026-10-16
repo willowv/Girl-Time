@@ -1,0 +1,21 @@
+filename = 'guiclock-1.20.1-4.8.jar'
+name = 'GUI Clock'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-4.8-fabric+forge+neo'
+
+[download]
+hash = 'f69c49c80312ccce65580d1ba076e3313e9ff608b1acb7345801ee41bd3628954a9b02108b2cbec12b6482be966ec6ca7ad8856072714b07584c08d3fb02001f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/g1yXisD2/versions/5bMsu7Wh/guiclock-1.20.1-4.8.jar'
+
+[update.modrinth]
+mod-id = 'g1yXisD2'
+version = '5bMsu7Wh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0M1UDsY'
+type = 'REQUIRED'

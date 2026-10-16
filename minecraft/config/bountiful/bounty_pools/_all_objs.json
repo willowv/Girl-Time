@@ -1,0 +1,96 @@
+{
+	"replace": true,
+    "content": {
+		"all_obj_emeralds": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 1000
+        },
+
+		"all_obj_emerald_hoard": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:emerald_block",
+            "amount": {
+                "min": 7,
+                "max": 64
+            },
+            "unitWorth": 9000
+        },
+
+		"all_obj_bricks": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:bricks",
+			"amount": {
+				"min": 8,
+				"max": 24
+			},
+			"unitWorth": 60
+		},
+
+		"all_obj_lumber_any": {
+			"name": "Lumber",
+			"type": "item_tag",
+			"rarity": "COMMON",
+			"content": "minecraft:logs",
+			"amount": {
+				"min": 8,
+				"max": 16
+			},
+			"unitWorth": 169
+		},
+
+		"all_obj_terracotta_random": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "#minecraft:terracotta",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 42
+		},
+
+		"all_obj_flowers_random": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "#minecraft:flowers",
+			"amount": {
+				"min": 12,
+				"max": 24
+			},
+			"unitWorth": 38
+		},
+
+		"all_obj_saplings_random": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "#minecraft:saplings",
+			"amount": {
+				"min": 12,
+				"max": 24
+			},
+			"unitWorth": 38
+		},
+
+		"all_obj_lanterns": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:lantern",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 350
+		}
+
+	}
+
+
+}

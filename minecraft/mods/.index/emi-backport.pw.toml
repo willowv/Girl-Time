@@ -1,0 +1,25 @@
+filename = 'remi-fabric-1.20.1-4.7.3.jar'
+name = 'Reliable EMI'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Reliable EMI Fabric 1.20.1 - 4.7.3'
+
+[download]
+hash = 'b0854e78dd3c929e4ec0288a2cdd340365ae1b8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8924587
+project-id = 1411826
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'REQUIRED'

@@ -1,0 +1,139 @@
+{
+    "content": {
+        "metal_rew_lava_bucket": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:lava_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:lava_bucket"
+                }
+            ],
+            "unitWorth": 5456
+        },
+
+		"metal_rew_coal": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:coal",
+			"amount": {
+				"min": 4,
+				"max": 16
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:coal"
+                }
+            ],
+			"unitWorth": 256
+		},
+
+        "_metal_rew_copper": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:copper_ingot",
+			"amount": {
+				"min": 4,
+				"max": 16
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:raw_copper"
+                }
+            ],
+			"unitWorth": 455
+		},
+
+        "_metal_rew_zinc": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "create:zinc_ingot",
+			"amount": {
+				"min": 2,
+				"max": 8
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "create:raw_zinc"
+                }
+            ],
+			"unitWorth": 1023
+		},
+
+        "_metal_rew_andesite": {
+            "type": "item",
+			"rarity": "COMMON",
+			"content": "minecraft:andesite",
+			"amount": {
+				"min": 16,
+				"max": 32
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:andesite"
+                }
+            ],
+			"unitWorth": 128
+        },
+
+        "_metal_rew_iron": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:iron_ingot",
+			"amount": {
+				"min": 3,
+				"max": 8
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:raw_iron"
+                }
+            ],
+			"unitWorth": 909
+		},
+
+        "_metal_rew_gold": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:gold_ingot",
+			"amount": {
+				"min": 2,
+				"max": 8
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:raw_gold"
+                }
+            ],
+			"unitWorth": 1364
+		},
+
+        "_metal_rew_diamond": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:diamond",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:diamond"
+                }
+            ],
+			"unitWorth": 8184
+		}
+    }
+}

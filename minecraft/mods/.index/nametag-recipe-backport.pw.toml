@@ -1,0 +1,38 @@
+filename = 'nametagrecipe-1.20-1.21.11.jar'
+name = 'Nametag Recipe Backport'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0+mod'
+
+[download]
+hash = 'd2aa762e8827db06b192ce0412bdc65158606cc3a59b2f48c56ac09b2347c6ea033bcfc4bf7e909e897133b2b1f6d4fe05645ffbf641c5b71e3b2fcd0ed35777'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aZsz2Ke2/versions/SRsK0syV/nametagrecipe-1.20-1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'aZsz2Ke2'
+version = 'SRsK0syV'

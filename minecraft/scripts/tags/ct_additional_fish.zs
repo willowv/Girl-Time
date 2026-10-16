@@ -1,0 +1,162 @@
+<tag:items:c:foods>.add([
+    <item:additionalfishing:raw_shrimp>,
+    <item:additionalfishing:tuna>,
+    <item:additionalfishing:raw_crab_claw>,
+    <item:additionalfishing:koi>,
+    <item:additionalfishing:piranha>,
+    <item:additionalfishing:herring>,
+    <item:additionalfishing:anglerfish>,
+    <item:additionalfishing:rainbowfish>,
+    <item:additionalfishing:goldfish>,
+    <item:additionalfishing:arctic_char>,
+    <item:additionalfishing:catfish>,
+    <item:additionalfishing:flounder>,
+    <item:additionalfishing:starfish>,
+    <item:additionalfishing:bass>,
+    <item:additionalfishing:clam>,
+    <item:additionalfishing:crab_claw>,
+    <item:additionalfishing:shrimp>,
+    <item:additionalfishing:cooked_flounder>,
+    <item:additionalfishing:cooked_bass>,
+    <item:additionalfishing:cooked_arctic_char>,
+    <item:additionalfishing:goldfish_cracker>,
+    <item:additionalfishing:cooked_herring>,
+    <item:additionalfishing:cooked_tuna>,
+    <item:additionalfishing:cooked_catfish>,
+    <item:additionalfishing:cooked_piranha>
+]);
+
+<tag:items:minecraft:fishes>.add([
+    <item:additionalfishing:raw_shrimp>,
+    <item:additionalfishing:tuna>,
+    <item:additionalfishing:raw_crab_claw>,
+    <item:additionalfishing:koi>,
+    <item:additionalfishing:piranha>,
+    <item:additionalfishing:herring>,
+    <item:additionalfishing:anglerfish>,
+    <item:additionalfishing:rainbowfish>,
+    <item:additionalfishing:goldfish>,
+    <item:additionalfishing:arctic_char>,
+    <item:additionalfishing:catfish>,
+    <item:additionalfishing:flounder>,
+    <item:additionalfishing:starfish>,
+    <item:additionalfishing:bass>,
+    <item:additionalfishing:clam>,
+    <item:additionalfishing:crab_claw>,
+    <item:additionalfishing:shrimp>,
+    <item:additionalfishing:cooked_flounder>,
+    <item:additionalfishing:cooked_bass>,
+    <item:additionalfishing:cooked_arctic_char>,
+    <item:additionalfishing:goldfish_cracker>,
+    <item:additionalfishing:cooked_herring>,
+    <item:additionalfishing:cooked_tuna>,
+    <item:additionalfishing:cooked_catfish>,
+    <item:additionalfishing:cooked_piranha>
+]);
+
+<tag:items:c:foods/raw_fishes>.add([
+    <item:additionalfishing:raw_shrimp>,
+    <item:additionalfishing:tuna>,
+    <item:additionalfishing:raw_crab_claw>,
+    <item:additionalfishing:koi>,
+    <item:additionalfishing:piranha>,
+    <item:additionalfishing:herring>,
+    <item:additionalfishing:anglerfish>,
+    <item:additionalfishing:rainbowfish>,
+    <item:additionalfishing:goldfish>,
+    <item:additionalfishing:arctic_char>,
+    <item:additionalfishing:catfish>,
+    <item:additionalfishing:flounder>,
+    <item:additionalfishing:starfish>,
+    <item:additionalfishing:bass>,
+    <item:additionalfishing:clam>,
+]);
+
+<tag:items:farmersdelight:cabbage_roll_ingredients>.add([
+    <item:additionalfishing:raw_shrimp>,
+    <item:additionalfishing:tuna>,
+    <item:additionalfishing:bass>,
+    <item:additionalfishing:flounder>,
+    <item:additionalfishing:arctic_char>,
+    <item:additionalfishing:herring>,
+    <item:additionalfishing:goldfish>,
+    <item:additionalfishing:catfish>,
+    <item:additionalfishing:piranha>,
+]);
+
+<tag:items:c:foods/cooked_fishes>.add([
+    <item:additionalfishing:crab_claw>,
+    <item:additionalfishing:shrimp>,
+    <item:additionalfishing:cooked_flounder>,
+    <item:additionalfishing:cooked_bass>,
+    <item:additionalfishing:cooked_arctic_char>,
+    <item:additionalfishing:goldfish_cracker>,
+    <item:additionalfishing:cooked_herring>,
+    <item:additionalfishing:cooked_tuna>,
+    <item:additionalfishing:cooked_catfish>,
+    <item:additionalfishing:cooked_piranha>
+]);
+
+<tag:items:c:mob_buckets>.add([
+    <item:additionalfishing:piranha_bucket>,
+    <item:additionalfishing:goldfish_bucket>,
+    <item:additionalfishing:arctic_char_bucket>,
+    <item:additionalfishing:bass_bucket>,
+    <item:additionalfishing:anglerfish_bucket>,
+    <item:additionalfishing:koi_bucket>,
+    <item:additionalfishing:shrimp_bucket>
+]);
+
+<tag:items:bookshelf:mob_buckets>.add([
+    <item:additionalfishing:piranha_bucket>,
+    <item:additionalfishing:goldfish_bucket>,
+    <item:additionalfishing:arctic_char_bucket>,
+    <item:additionalfishing:bass_bucket>,
+    <item:additionalfishing:anglerfish_bucket>,
+    <item:additionalfishing:koi_bucket>,
+    <item:additionalfishing:shrimp_bucket>
+]);
+
+<tag:items:c:entity_water_buckets>.add([
+    <item:additionalfishing:piranha_bucket>,
+    <item:additionalfishing:goldfish_bucket>,
+    <item:additionalfishing:arctic_char_bucket>,
+    <item:additionalfishing:bass_bucket>,
+    <item:additionalfishing:anglerfish_bucket>,
+    <item:additionalfishing:koi_bucket>,
+    <item:additionalfishing:shrimp_bucket>
+]);
+
+<tag:items:girl_time:rare_fish_A>.add([
+    <item:additionalfishing:raw_shrimp>,
+    <item:additionalfishing:tuna>,
+    <item:additionalfishing:raw_crab_claw>,
+    <item:additionalfishing:koi>,
+    <item:additionalfishing:piranha>,
+    <item:additionalfishing:herring>,
+    <item:additionalfishing:anglerfish> 
+]);
+
+<tag:items:girl_time:rare_fish_B>.add([
+    <item:additionalfishing:rainbowfish>,
+    <item:additionalfishing:goldfish>,
+    <item:additionalfishing:arctic_char>,
+    <item:additionalfishing:catfish>,
+    <item:additionalfishing:flounder>,
+    <item:additionalfishing:starfish>,
+    <item:additionalfishing:bass>,
+    <item:additionalfishing:clam>,
+]);
+
+<tag:items:girl_time:rare_fish_bucket_A>.add([
+    <item:additionalfishing:piranha_bucket>,
+    <item:additionalfishing:goldfish_bucket>,
+    <item:additionalfishing:arctic_char_bucket>
+]);
+
+<tag:items:girl_time:rare_fish_bucket_B>.add([
+    <item:additionalfishing:bass_bucket>,
+    <item:additionalfishing:anglerfish_bucket>,
+    <item:additionalfishing:koi_bucket>,
+    <item:additionalfishing:shrimp_bucket>
+]);

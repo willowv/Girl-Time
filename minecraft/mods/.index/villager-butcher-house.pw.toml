@@ -1,0 +1,18 @@
+filename = 'villager_butcher_house-1.0.0 fabric 1.20.1.jar'
+name = 'Villager Butcher House'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'f449ebaf27d9626d0671cc0f816ecc13ff5007672df6bb4f48f8c7257c4ea03d3b7262de58ecc07e6066abd50f4862771fa33c8600e380d1d0e4ae9696658917'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Lda5cMMV/versions/JQoHJN53/villager_butcher_house-1.0.0 fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Lda5cMMV'
+version = 'JQoHJN53'

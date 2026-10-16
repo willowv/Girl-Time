@@ -1,0 +1,39 @@
+<tag:enchantment:girl_time:armor_trades>.add([
+    <enchantment:minecraft:blast_protection>, 
+    <enchantment:minecraft:feather_falling>, 
+    <enchantment:minecraft:fire_protection>, 
+    <enchantment:minecraft:projectile_protection>, 
+    <enchantment:minecraft:protection>, 
+    <enchantment:minecraft:respiration>, 
+    <enchantment:minecraft:depth_strider>, 
+    <enchantment:minecraft:aqua_affinity>, 
+    <enchantment:minecraft:thorns>
+]);
+
+<tag:enchantment:girl_time:melee_trades>.add([
+    <enchantment:minecraft:fire_aspect>, 
+    <enchantment:minecraft:looting>, 
+    <enchantment:minecraft:bane_of_arthropods>, 
+    <enchantment:minecraft:sharpness>, 
+    <enchantment:minecraft:smite>, 
+    <enchantment:minecraft:sweeping>
+]);
+
+<tag:enchantment:girl_time:ranged_trades>.add([
+    <enchantment:minecraft:power>,
+    <enchantment:minecraft:flame>,
+    <enchantment:minecraft:infinity>,
+    <enchantment:minecraft:multishot>,
+    <enchantment:minecraft:piercing>,
+    <enchantment:minecraft:punch>,
+    <enchantment:minecraft:quick_charge>,
+    <enchantment:quiver:auto_refill>
+]);
+
+<tag:enchantment:girl_time:tool_trades>.add([
+    <enchantment:minecraft:efficiency>, 
+    <enchantment:minecraft:fortune>, 
+    <enchantment:minecraft:silk_touch>, 
+    <enchantment:minecraft:luck_of_the_sea>, 
+    <enchantment:minecraft:lure>
+]);

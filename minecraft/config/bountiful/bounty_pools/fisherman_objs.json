@@ -1,0 +1,72 @@
+
+{
+	"replace": true,
+    "content": {
+
+        "fisherman_obj_squid_ink": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:ink_sac",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 169
+        },
+
+        "fisherman_obj_dried_kelp": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:dried_kelp_block",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 117
+        },
+
+        "fisherman_obj_fish_random_A": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "#girl_time:rare_fish_A",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "fisherman_obj_fish_random_B": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "#girl_time:rare_fish_B",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "fisherman_obj_live_fish_random_A": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "#girl_time:rare_fish_bucket_A",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+
+        "fisherman_obj_live_fish_random_B": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "#girl_time:rare_fish_bucket_B",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        }
+	}
+}

@@ -1,0 +1,39 @@
+filename = 'FreshRabbitVillager v.2.3 1.21.11.zip'
+name = 'Rabbit Villager Add-ons'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.3'
+
+[download]
+hash = '0927d823d9e31bbb118cdb092e69c670c54c975e74ba05d89db41875fa567a755b76b96b80fc72977a40e2cdc4a5d05d03d22c7138b9a3ceb0b44ae812c5928b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9dYqq6oG/versions/e1hyGXaE/FreshRabbitVillager v.2.3 1.21.11.zip'
+
+[update.modrinth]
+mod-id = '9dYqq6oG'
+version = 'e1hyGXaE'

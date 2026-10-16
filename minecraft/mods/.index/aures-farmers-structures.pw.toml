@@ -1,0 +1,18 @@
+filename = 'FarmersStructures-1.0.0-1.20_fabric.jar'
+name = 'Aures - Farmers Structures'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'a18fc85f6c2bb89b5c10cb8563d482dc6e4daebbf6397635e8a5ae731d83375a04b87969917d046f7ec9e8a1caeb5ad6d46e7287f5d26bbe9317c8402ecae9db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iYGRt6QB/versions/j3s80Xep/FarmersStructures-1.0.0-1.20_fabric.jar'
+
+[update.modrinth]
+mod-id = 'iYGRt6QB'
+version = 'j3s80Xep'

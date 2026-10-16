@@ -1,0 +1,21 @@
+filename = 'PPP 1.0.0 Fabric 1.20.1.jar'
+name = 'Poisonous Potato Potions'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'c3b32ce725e201a513ee61b9ad3d4dd5d0bd65dc6ad0b304160bfb2d763aaab9e4348c5e05cb3829a256e9bc0c798c37d1eebdc946a679d508a042fce465e877'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7MBmBn4E/versions/sq0RnZtu/PPP 1.0.0 Fabric 1.20.1.jar'
+
+[update.modrinth]
+mod-id = '7MBmBn4E'
+version = 'sq0RnZtu'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

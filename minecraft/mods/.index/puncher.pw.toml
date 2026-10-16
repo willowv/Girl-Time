@@ -1,0 +1,21 @@
+filename = 'puncher-fabric-2.0.0+1.20.1.jar'
+name = 'Puncher'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-2.0.0+1.20.1'
+
+[download]
+hash = '0902e52c81123d536ef76702367722879d24c558ca8e1e4111ac6627b7f74b28df4488705f51d4822cb666bc8fdd879051979bf5fc2b9eaee2f21443bd34a608'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2Qlu5M7f/versions/XJtRBW0S/puncher-fabric-2.0.0%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '2Qlu5M7f'
+version = 'XJtRBW0S'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

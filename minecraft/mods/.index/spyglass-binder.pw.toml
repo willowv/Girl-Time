@@ -1,0 +1,18 @@
+filename = 'spyglassbinder-1.0.1.jar'
+name = 'Spyglass Binder'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'dc582fd577228a012634c927eddd1c3f85f058d8185ebc6047e1b7dc5410c943fe56c19d0b33ff37e567650aad95099795f5fb1f65eacd985f6fd24895dc3524'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/13k1rATA/versions/haD5Pk1p/spyglassbinder-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '13k1rATA'
+version = 'haD5Pk1p'

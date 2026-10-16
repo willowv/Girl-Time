@@ -1,0 +1,18 @@
+filename = 'NaturalistPoalrBear.zip'
+name = 'Naturalistic Polar Bear'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1'
+
+[download]
+hash = 'cc1ec416edcd581813c7a0c631eea07cff8eb4783a65a750a7172410386102289cd5100382cfe8e4c62257cc7a6570da532894709fd6575b8c55c02fa03f14fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N2cpQdpB/versions/T2rNrZTj/NaturalistPoalrBear.zip'
+
+[update.modrinth]
+mod-id = 'N2cpQdpB'
+version = 'T2rNrZTj'
