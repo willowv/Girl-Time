@@ -13,7 +13,7 @@
 ## To Do
 - [ ] Make all pride tights craftable with dye
 - [ ] Make peonies and rose bushes cuttable
-- [ ] More Villager names
+- [X] More Villager names
 - [ ] Update loot tables or find good redistributable loot mods
 - Reduce village loot especially; you get wayyy too much stuff currently
 - [ ] Turn off medium and large villages; I prefer player builds up the village vibe
