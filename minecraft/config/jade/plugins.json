@@ -67,6 +67,9 @@
   "enhanced-cats": {
     "cat_stats": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "reputation": {
     "iron_golem": true,
     "villager_snitch": true,
