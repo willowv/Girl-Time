@@ -14,19 +14,19 @@ keepOffset = false
 # How to depict player death locations.
 # options: CAUSE, GRAVE, ITEMS, DIED, EUPHEMISMS
 # default: EUPHEMISMS
-graveStyle = "EUPHEMISMS"
+graveStyle = "CAUSE"
 # The maximum number of chunks to represent as a tile, as a power of 2
 # Effectively the 'minimum zoom'
 # 0: 1x1 chunk = 1 tile | 6: 64x64 chunks = 1 tile
 # range: 0 - 6
 # default: 5
-maxTileChunks = 5
+maxTileChunks = 4
 # The maximum size to render a tile at, as a power of 2 multiplier
 # Effectively the 'maximum zoom'
 # 0: 1 tile = 16x16 | 3: 1 tile = 128x128
 # range: 0 - 3
 # default: 1
-maxTilePixels = 1
+maxTilePixels = 0
 # The effective GUI scale for tiles and markers - independent of the overall GUI scale.
 # 0 will match your GUI scale - pixels will be the same size as the background & buttons
 # -1 will use half your GUI scale, rounding up.
@@ -45,192 +45,6 @@ fallbackFailHandling = "MISSING"
 # options: CLOUDS, EMPTY
 # default: EMPTY
 emptyHandling = "EMPTY"
-
-[structureMarkers]
-	"idas:start/apothecary_abode" = true
-	"cataclysm:start/soul_black_smith" = true
-	"idas:start/desert_market/desert_market_orange" = true
-	"idas:start/lumber_camp/lumber_camp_bopredwood" = true
-	"terralith:start/mage_tower_spring" = true
-	"betterarcheology:start/stonehenge_grassy" = true
-	"terralith:start/rubble_forest" = true
-	"idas:start/train_ruins" = true
-	"idas:start/desert_market/desert_market" = true
-	"idas:start/lumber_camp/lumber_camp_bygmahogany" = true
-	"incendium:start/quartz_kitchen" = true
-	"betterarcheology:start/catacombs" = true
-	"terralith:start/rubble_desert" = true
-	"idas:start/desert_market/desert_market_red" = true
-	"idas:start/nexus" = true
-	"idas:start/fishermans_lodge" = true
-	"idas:start/lumber_camp/lumber_camp_oak" = true
-	"idas:start/tinkers_workshop" = true
-	"ars_additions:start/ruined_portal" = true
-	"terralith:start/rubble_mesa" = true
-	"betterarcheology:start/mott" = true
-	"idas:start/winter_wagon" = true
-	"idas:start/snifferhenge" = true
-	"terralith:start/fortified_desert_village" = true
-	"idas:start/desert_camp/desert_camp" = true
-	"cataclysm:start/ruined_citadel" = true
-	"betterarcheology:start/fossil_jungle_0" = true
-	"minecraft:type/woodland_mansion" = true
-	"incendium:start/sanctum" = true
-	"ars_nouveau:start/stalker_wilden_den" = true
-	"idas:start/underground_camp/underground_camp_deep" = true
-	"idas:start/desert_pyramid" = true
-	"mowziesmobs:start/wrought_chamber" = true
-	"betterarcheology:start/buried_ruins_sand" = true
-	"idas:start/ancient_statue/ancient_statue_plains" = true
-	"irons_spellbooks:start/pyromancer_tower" = true
-	"minecraft:type/end_city" = false
-	"minecraft:tag/village" = true
-	"betterarcheology:start/ruins_sand" = true
-	"idas:start/abandoned_lighthouse" = true
-	"medieval_buildings:start/fort" = true
-	"medieval_buildings:start/house_2" = true
-	"idas:start/brickhouse" = true
-	"medieval_buildings:start/house_1" = true
-	"idas:start/lumber_camp/lumber_camp_bopmahogany" = true
-	"ars_nouveau:start/hunter_wilden_den" = true
-	"idas:start/ancient_statue/ancient_statue_jungle" = true
-	"idas:start/animal_den/foxhound_den" = true
-	"betterarcheology:start/fossil_creeper" = true
-	"idas:start/lumber_camp/lumber_camp_acacia" = true
-	"idas:start/lumber_camp/lumber_camp_jungle" = true
-	"irons_spellbooks:start/mountain_tower" = true
-	"minecraft:start/village_snowy" = true
-	"idas:start/beekeepers_house" = true
-	"betterarcheology:start/archeologist_camp_redsand" = true
-	"idas:start/lumber_camp/lumber_camp_dark_oak" = true
-	"ars_additions:start/nexus_tower" = true
-	"ribbits:start/ribbit_village" = true
-	"hexalia:start/herbalist_hut" = true
-	"idas:start/pillager_camp" = true
-	"betterwitchhuts:start/witch_circle" = true
-	"terralith:start/fortified_village" = true
-	"idas:start/ancient_statue/ancient_statue_desert" = true
-	"idas:start/witches_treestump" = true
-	"idas:start/animal_den/polar_bear_den" = true
-	"minecraft:start/village_plains" = true
-	"minecraft:start/bastion_remnant" = true
-	"betterarcheology:start/archeologist_camp_grassy" = true
-	"minecraft:start/village_taiga" = true
-	"idas:start/iceandfire/dread_citadel" = true
-	"cataclysm:start/acropolis" = true
-	"betterarcheology:start/fossil_chicken_birch" = true
-	"terralith:start/underground/frosted_dungeon" = true
-	"idas:start/ancient_portal/nether_ancient_portal" = true
-	"irons_spellbooks:start/mangrove_hut" = true
-	"cataclysm:start/burning_arena" = true
-	"idas:start/desert_camp/desert_camp_red" = true
-	"incendium:start/nether_reactor" = true
-	"idas:start/desert_camp/desert_camp_orange" = true
-	"betterarcheology:start/underwater_0" = true
-	"terralith:start/desert_outpost" = true
-	"betterarcheology:start/underwater_1" = true
-	"terralith:start/mage_tower_autumn" = true
-	"idas:start/tinkers_citadel" = true
-	"idas:start/pillager_fortress" = true
-	"betterarcheology:start/temple_jungle" = true
-	"incendium:start/ruined_lab" = true
-	"terralith:start/rubble_jungle" = true
-	"incendium:start/abandoned_tower" = true
-	"mowziesmobs:start/monastery" = true
-	"ars_additions:start/arcane_library" = true
-	"betterarcheology:start/underwater_2" = true
-	"terralith:start/underground/giant_bee_hive" = true
-	"betterarcheology:start/underwater_3" = true
-	"betterarcheology:start/fossil_wolf" = true
-	"idas:start/bearclaw_inn" = true
-	"idas:start/redhorn_guild" = true
-	"medieval_nether:start/shrine" = true
-	"betterarcheology:start/fossil_chicken" = true
-	"idas:start/tree_of_wisdom" = true
-	"idas:start/lumber_camp/lumber_camp_bygredwood" = true
-	"idas:start/hermits_hollow" = true
-	"cataclysm:start/sunken_city" = true
-	"idas:start/ancient_portal/ancient_portal" = true
-	"idas:start/abandonedhouse" = true
-	"ars_additions:start/ruined_portal_large" = true
-	"terralith:start/mage_tower" = true
-	"terralith:start/spire" = true
-	"idas:start/bazaar" = true
-	"irons_spellbooks:start/impaled_icebreaker" = true
-	"idas:start/labyrinth" = true
-	"idas:start/sunken_ship/sunken_ship" = true
-	"idas:start/ruins_of_the_deep" = true
-	"terralith:start/rubble_taiga" = true
-	"betterarcheology:start/mesa_ruins" = true
-	"idas:start/desert_camp/desert_camp_bygwindswept" = true
-	"medieval_buildings:start/ship" = true
-	"irons_spellbooks:start/catacombs" = true
-	"idas:start/washing_camp" = true
-	"ars_nouveau:start/guardian_wilden_den" = true
-	"minecraft:start/village_savanna" = true
-	"medieval_nether:start/dome" = true
-	"betterarcheology:start/tumulus_grassy" = true
-	"betterarcheology:start/archeologist_camp_sand" = true
-	"incendium:start/forbidden_castle" = true
-	"minecraft:type/ocean_monument" = true
-	"idas:start/castle" = true
-	"incendium:start/pipeline" = true
-	"terralith:start/mage_tower_winter" = true
-	"idas:start/dig_site/dig_site" = true
-	"terralith:start/underground/old_refinery" = true
-	"idas:start/lumber_camp/lumber_camp_birch" = true
-	"terralith:start/valley_lodge" = true
-	"irons_spellbooks:start/evoker_fort" = true
-	"terralith:start/witch_hut" = true
-	"idas:start/lumber_camp/lumber_camp_spruce" = true
-	"incendium:start/piglin_village" = true
-	"incendium:start/infernal_altar" = true
-	"idas:start/ancient_mines" = true
-	"cataclysm:start/cursed_pyramid" = true
-	"medieval_nether:start/ship" = true
-	"terralith:start/underground/mining_outpost" = true
-	"idas:start/treetop_tavern" = true
-	"terralith:start/mage_complex" = true
-	"idas:start/sunken_ship/sunker_ship_ruins" = true
-	"betterdeserttemples:start/desert_temple" = true
-	"idas:start/hunters_cabin" = true
-	"betterarcheology:start/desert_obelisk" = true
-	"medieval_nether:start/castle" = true
-	"terralith:start/glacial_hut" = true
-	"idas:start/sunken_ship/sunken_ship_coral" = true
-	"idas:start/frozen_crypt" = true
-	"idas:start/wizard_tower" = true
-	"terralith:start/underground/oak_cabin" = true
-	"idas:start/farmhouse" = true
-	"betterarcheology:start/fossil_sheep_0" = true
-	"cataclysm:start/frosted_prison" = true
-	"idas:start/cottage" = true
-	"terralith:start/igloo" = true
-	"betterarcheology:start/fossil_jungle_1" = true
-	"cataclysm:start/ancient_factory" = true
-	"betterwitchhuts:start/witch_hut" = true
-	"minecraft:start/village_desert" = true
-	"deeperdarker:start/ancient_temple" = true
-	"terralith:start/mage_tower_summer" = true
-	"terralith:start/underground/witch_hut" = true
-	"idas:start/animal_den/forest_den" = true
-	"mowziesmobs:start/umvuthana_grove" = true
-	"idas:start/enchantingtower" = true
-	"idas:start/underground_camp/underground_camp" = true
-	"terralith:start/rubble_mountain" = true
-	"mowziesmobs:start/frostmaw_spawn" = true
-	"idas:start/necromancers_spire" = true
-	"medieval_buildings:start/tower" = true
-	"idas:start/ars_nouveau/archmages_tower" = true
-	"medieval_nether:start/house" = true
-	"betterarcheology:start/light_temple" = true
-	"betterarcheology:start/villager_grave" = true
-	"irons_spellbooks:start/ancient_battleground" = true
-	"terralith:start/underground_cabin" = true
-	"betterjungletemples:start/jungle_temple" = true
-	"idas:start/dig_site/dig_site_desert" = true
-	"idas:start/haunted_manor" = true
-	"terralith:start/underground/sunken_tower" = true
 
 # Options to adjust map behaviour for custom or modified dimensions.
 [dimensions]

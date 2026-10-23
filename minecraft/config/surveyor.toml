@@ -34,7 +34,7 @@ forceUpdateLandmarks = true
 	# [Server] Whether to place every player in a single share group
 	# Disables /surveyor share and /surveyor unshare
 	# default: true
-	globalSharing = true
+	globalSharing = false
 	# How much terrain data to send to clients
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
 	# options: NONE, SOLO, GROUP, SERVER
@@ -78,7 +78,7 @@ forceUpdateLandmarks = true
 	# Which block entities to preserve data for when creating block landmarks.
 	allowedBlockEntities = ["minecraft:banner"]
 	# Which points of interest to automatically add block landmarks for.
-	poiLandmarks = ["minecraft:lodestone"]
+	poiLandmarks = ["waystones:village_waystone"]
 	# Whether to automatically add specialised nether portal POI landmarks.
 	# Creates one landmark for each nether portal, instead of one per portal block.
 	# default: true

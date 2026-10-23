@@ -5,18 +5,22 @@
 - Bounties still feel a little wonky maybe
 
 ## Issues
-- Antique atlas doesn't like shaders, is maybe incompatible with boat item view also
 - Something might be up with world generation, every now and then I see terrain that looks pretty janky
-- Some villages generate without an icon on the atlas and don't have waystones like they're supposed to; are they missing a tag?
 - Panda, Camel, and Sheep textures are messed up for some reason. Currently working around by reskinning sheep and removing camels from the game :grimacing:
+- Village icon does not display on the map when all the way zoomed in; not sure why
+
+### Historical
+- Removed ChoiceTheorem's Overhauled Villages because the 1.20.1 version has a pretty serious issue where decor spawns at every possible building location along roads. This results in roads being lined with an absurd number of lamps. While the issue was addressed in future versions, those were never backported to 1.20.1. Will consider revisiting if I update the modpack to run on 1.21.1, which I believe is where current Estrogen development is happening.
+- Lithostitched has a better method for guaranteeing the inclusion of bounty boards and waystones in village generation, so the respective mods have been configured to not handle their spawning. I instead handle it via Lithostitched json in the Girl Time Worldgen mod.
 
 ## To Do
 - [ ] Make all pride tights craftable with dye
 - [ ] Make peonies and rose bushes cuttable
 - [X] More Villager names
-- [ ] Update loot tables or find good redistributable loot mods
+- [X] Update loot tables or find good redistributable loot mods
 - Reduce village loot especially; you get wayyy too much stuff currently
-- [ ] Turn off medium and large villages; I prefer player builds up the village vibe
+- [X] Tweak village sizes (will need to override CTOV datapack most likely) to make villages smaller
+- [X] Turn off vanilla villages? They're just not very pretty in comparison and are missing the bounty board and waystone
 - [ ] Replace slurp bags with bundles
 - [ ] Try adding seamless trading back in?
 - [ ] Update voices resource pack on Modrinth and recommend the Quieter Mobs mod as accompaniment
