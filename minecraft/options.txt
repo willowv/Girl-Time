@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","create:dynamic_data","fabric","file/Clean Connected Glass [1.20-26.x].zip","file/EBE_1.20.x_v1.1.zip","file/Fancy Crops v1.3.zip","file/Low Shield.zip","file/[1.5] Enhanced Boss Bars.zip","file/§l3D§f+Ladders+v1.1.zip","Moonlight Mods Dynamic Assets","file/AA_structures-v1.1.1.zip","file/FD Bark Cutting Compat by H3NZ.zip","file/Sugarcane Fresh Flowers and Plants.zip","file/§9BetterBoat§7_4.0.zip","file/BabyAnimalBackportV2.0.zip","file/FreshAnimations_v1.10.4.zip","file/Prettier-Sheep-1.1.zip","file/§6Leader of the Pack v1.0.zip","file/§6Beagle Bangles v1.0.zip","file/NaturalistPoalrBear.zip","file/Fresh AI Tweaks 1.19.4-1.20.6.zip","file/SE Vanilla Consistency 1.20.1.zip","file/CassettePlayerV1.zip","file/Lads-Cassettes-1.1-26.2.zip","file/RabbitVillager v.3.0 1.21.11.zip","file/FreshRabbitVillager v.2.3 1.21.11.zip","variantbookshelves:3d_bookshelves","continuity:default","continuity:glass_pane_culling_fix","file/Gentle Villager Voices.zip"]
-incompatibleResourcePacks:["file/BabyAnimalBackportV2.0.zip","file/§6Leader of the Pack v1.0.zip","file/§6Beagle Bangles v1.0.zip","file/Fresh AI Tweaks 1.19.4-1.20.6.zip","file/CassettePlayerV1.zip","file/Lads-Cassettes-1.1-26.2.zip","file/RabbitVillager v.3.0 1.21.11.zip","file/FreshRabbitVillager v.2.3 1.21.11.zip"]
+resourcePacks:["vanilla","create:dynamic_data","fabric","file/Clean Connected Glass [1.20-26.x].zip","file/EBE_1.20.x_v1.1.zip","file/Fancy Crops v1.3.zip","file/Low Shield.zip","file/[1.5] Enhanced Boss Bars.zip","file/§l3D§f+Ladders+v1.1.zip","Moonlight Mods Dynamic Assets","file/AA_structures-v1.1.1.zip","file/FD Bark Cutting Compat by H3NZ.zip","file/Sugarcane Fresh Flowers and Plants.zip","file/§9BetterBoat§7_4.0.zip","file/BabyAnimalBackportV2.0.zip","file/FreshAnimations_v1.10.4.zip","file/Prettier-Sheep-1.1.zip","file/§6Leader of the Pack v1.0.zip","file/§6Beagle Bangles v1.0.zip","file/NaturalistPoalrBear.zip","file/Fresh AI Tweaks 1.19.4-1.20.6.zip","file/SE Vanilla Consistency 1.20.1.zip","file/CassettePlayerV1.zip","file/Lads-Cassettes-1.1-26.2.zip","file/RabbitVillager v.3.0 1.21.11.zip","file/FreshRabbitVillager v.2.3 1.21.11.zip","variantbookshelves:3d_bookshelves","continuity:default","continuity:glass_pane_culling_fix","file/Gentle Villager Voices.zip","file/Antique_Atlas_4_Compat_v1.4.zip","file/AA4 Structure Markers 1.8.2.zip"]
+incompatibleResourcePacks:["file/BabyAnimalBackportV2.0.zip","file/§6Leader of the Pack v1.0.zip","file/§6Beagle Bangles v1.0.zip","file/Fresh AI Tweaks 1.19.4-1.20.6.zip","file/CassettePlayerV1.zip","file/Lads-Cassettes-1.1-26.2.zip","file/RabbitVillager v.3.0 1.21.11.zip","file/FreshRabbitVillager v.2.3 1.21.11.zip","file/Antique_Atlas_4_Compat_v1.4.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -76,7 +76,7 @@ skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
@@ -141,6 +141,8 @@ key_sgbind.bind:key.keyboard.c
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
 key_key.puffish_skills.open:key.keyboard.k
+key_key.reliable_remover.emi_delete:key.keyboard.delete
+key_key.reliable_remover.jei_delete:key.keyboard.delete
 key_desc.seasonhud.keybind.options:key.keyboard.h
 key_spyglass-only-hud.key.openConfig:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
