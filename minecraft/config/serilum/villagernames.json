@@ -14,7 +14,7 @@
 	},
 	"useDefaultMaleNames": {
 		"//": "Use the list of pre-defined male names when naming villagers.",
-		"value": true
+		"value": false
 	},
 	"useBothCustomAndDefaultNames": {
 		"//": "Disabled by default. Whether both custom and default names should be used to name villagers. Custom names will probably not be chosen often due to the amount of default names.",
