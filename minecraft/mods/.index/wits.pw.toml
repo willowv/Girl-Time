@@ -1,0 +1,18 @@
+filename = 'wits-1.1.1+1.20.1-fabric.jar'
+name = 'WITS (What Is This Structure?)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1+1.20.1-fabric'
+
+[download]
+hash = '98424c01aea9a3e7d341b3a2096bea65e8fc688be7c1736ff2e3799f97456a82aaa2bbd29faf52022d8dcafde04ba219163cea08d64f264988bda16fc63e9f00'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AVo2esap/versions/QHihqFdt/wits-1.1.1%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'AVo2esap'
+version = 'QHihqFdt'

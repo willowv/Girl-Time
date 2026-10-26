@@ -1,20 +1,20 @@
-filename = 'entity_model_features-3.3.11-1.20.1-fabric.jar'
+filename = 'entity_model_features-3.3.12-1.20.1-fabric.jar'
 name = 'Entity Model Features'
 side = ''
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.3.11-fabric-1.20.1'
+x-prismlauncher-version-number = '3.3.12-fabric-1.20.1'
 
 [download]
-hash = '2ca796bb0f7ccade70a1151bd7e60f4d8b0c6861076d5fc5c9b7736707ad06786d4c94e04b7d19613ace1d443847dba86b59dbade1e16e2eac8e23d1fe266700'
+hash = '5782ea103b3d6791564b3022760bae57aa2dc017b6f4d4a28e493bae1ea3fa1232c19a8a9614df604d3fe0a871540dd76d4f9150c2186047961ed520c9c041ce'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/4I1XuqiY/versions/rQLv8RBX/entity_model_features-3.3.11-1.20.1-fabric.jar'
+url = 'https://cdn.modrinth.com/data/4I1XuqiY/versions/kIXaZJr8/entity_model_features-3.3.12-1.20.1-fabric.jar'
 
 [update.modrinth]
 mod-id = '4I1XuqiY'
-version = 'rQLv8RBX'
+version = 'kIXaZJr8'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'BVzZfTc1'

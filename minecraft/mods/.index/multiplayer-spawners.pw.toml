@@ -1,24 +1,20 @@
-filename = 'Multiplayer Spawners - Fabric - 1.20.1 - 1.1.0.jar'
-name = 'Multiplayer Spawners'
-side = 'both'
+filename = 'Multiplayer Spawners - Fabric - 1.20.1 - 2.0.1.jar'
+name = 'MultiplayerSpawners'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.0'
+x-prismlauncher-version-number = '2.0.1+fabric-1.20.1'
 
 [download]
-hash = 'a5084cfb16639aa2cc6770e6709ee21bb0d49e7f75f67bd2248f76636cd0b71f5d0e222bcc2d3596022ffd6ba6909a954bcf96e3b3ff77d712542c8e2a9f9acb'
+hash = '6e120048e33ba3d79d2bd85ec62a3c4210f6da8bf4d365985a45972382e49373ed9e3edc79a857ce4d93b5974ddc96e01ec95cff5bc902e1ccc3a07e28e55e50'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ltl1ms4K/versions/E1fl72i0/Multiplayer Spawners - Fabric - 1.20.1 - 1.1.0.jar'
+url = 'https://cdn.modrinth.com/data/ltl1ms4K/versions/Awdyc2Mj/Multiplayer Spawners - Fabric - 1.20.1 - 2.0.1.jar'
 
 [update.modrinth]
 mod-id = 'ltl1ms4K'
-version = 'E1fl72i0'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ohNO6lps'
-type = 'REQUIRED'
+version = 'Awdyc2Mj'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'
