@@ -18,7 +18,7 @@
   "neverDespawnDeathDrops": false,
   "condenseDeathDrops": false,
   "explosionResistantDeathDrops": false,
-  "keptItemOverrides": ["aa4-atlas:antique_atlas", "slurpbags:seed_bag", "slurpbags:flower_bag", "slurpbags:sapling_bag", "quiver:quiver", "quiver:iron_quiver", "quiver:diamond_quiver", "quiver:netherite_quiver", "horse_whistle:horse_whistle_item", "respawnablepets:etheric_gem", "minecraft:compass", "minecraft:clock"],
+  "keptItemOverrides": ["aa4-atlas:antique_atlas", "minecraft:bundle", "quiver:quiver", "quiver:iron_quiver", "quiver:diamond_quiver", "quiver:netherite_quiver", "horse_whistle:horse_whistle_item", "respawnablepets:etheric_gem", "minecraft:compass", "minecraft:clock"],
   "droppedItemOverrides": [],
   "destroyedItemOverrides": [],
   "bypassKeepInventoryDimensions": [],
