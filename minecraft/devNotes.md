@@ -14,19 +14,17 @@
 - Lithostitched has a better method for guaranteeing the inclusion of bounty boards and waystones in village generation, so the respective mods have been configured to not handle their spawning. I instead handle it via Lithostitched json in the Girl Time Worldgen mod.
 
 ## To Do
-- [ ] Make all pride tights craftable with dye
-- [ ] Make peonies and rose bushes cuttable
 - [X] More Villager names
 - [X] Update loot tables or find good redistributable loot mods
 - Reduce village loot especially; you get wayyy too much stuff currently
 - [X] Tweak village sizes (will need to override CTOV datapack most likely) to make villages smaller
 - [X] Turn off vanilla villages? They're just not very pretty in comparison and are missing the bounty board and waystone
-- [ ] Replace slurp bags with bundles
-- [ ] Try adding seamless trading back in?
+- [X] Replace slurp bags with bundles
+- [X] Try adding seamless trading back in? I genuinely don't know why I removed it, seems to work fine
 - [ ] Update voices resource pack on Modrinth and recommend the Quieter Mobs mod as accompaniment
 - [ ] Reduce the weight of or remove the Villager laugh sound
-- [ ] Remove dynamic sound culling; Quieter Mobs is sufficient on its own
-- [ ] Look at WTHIT as an alternative to Jade, see what's different about it
+- [X] Remove dynamic sound culling; Quieter Mobs is sufficient on its own
+- [X] Look at WTHIT as an alternative to Jade, see what's different about it
 
 ## Ideas
 - Trading skill tree which gives you the trading post, sales table, request table, decrees, and bounty boards, maybe global reputation as well?
