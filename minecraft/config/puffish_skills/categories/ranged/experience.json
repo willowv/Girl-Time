@@ -1,0 +1,41 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(100 * (1 + 0.1 * level), 400)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"tamed": "exclude",
+				"variables": {
+					"is_projectile": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "puffish_skills:is_projectile"
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_projectile",
+						"expression": "amount * 3"
+					}
+				]
+			}
+		}
+	]
+}

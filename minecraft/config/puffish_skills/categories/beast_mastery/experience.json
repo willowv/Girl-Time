@@ -1,0 +1,119 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(100000 * (1 + 0.1 * level), 400000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"tamed": "only",
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					}
+				},
+				"experience": "damage * 1000"
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "minecraft:tame_animal"
+				},
+				"experience": "25000"
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_breed": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.animals_bred"
+								}
+							}
+						]
+					},
+					"is_horse_distance": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.horse_one_cm"
+								}
+							}
+						]
+					},
+					"is_pig_distance": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.pig_one_cm"
+								}
+							}
+						]
+					},
+					"is_strider_distance": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.strider_one_cm"
+								}
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_increase_amount"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_breed",
+						"expression": "2000"
+					},
+					{
+						"condition": "is_horse_distance",
+						"expression": "amount"
+					},
+					{
+						"condition": "is_pig_distance",
+						"expression": "amount"
+					},
+					{
+						"condition": "is_strider_distance",
+						"expression": "amount"
+					}
+				]
+			}
+		}
+	]
+}

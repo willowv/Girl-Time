@@ -1,0 +1,242 @@
+{
+	"magic_resistance": {
+		"title": "Forge Hardened",
+		"description": "Take less damage from harmful magic.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"repair_cost": {
+		"title": "Tinkering",
+		"description": "Reduce the amount of experience required to repair magic equipment.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"experience": {
+		"title": "Soul Sink",
+		"description": "Absorb more magic from experience orbs.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"anvil": {
+		"title": "Weighty Inheritance",
+		"description": "Get a brand new anvil.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:anvil"
+				}
+			}
+		]
+	},
+	"mending": {
+		"title": "Mending",
+		"description": "Get a book of Mending.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:enchanted_book[stored_enchantments={\"minecraft:mending\":1}]"
+				}
+			}
+		]
+	},
+	"silk_touch": {
+		"title": "Silk Touch",
+		"description": "Get a book of Silk Touch.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:enchanted_book[stored_enchantments={\"minecraft:silk_touch\":1}]"
+				}
+			}
+		]
+	},
+	"flame": {
+		"title": "Flame",
+		"description": "A bow enchanted with this book turns all fired arrows into flaming arrows.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:enchanted_book[stored_enchantments={\"minecraft:flame\":1}]"
+				}
+			}
+		]
+	},
+	"infinity": {
+		"title": "Conservation II",
+		"description": "A bow enchanted with this book has a chance of not consuming arrows when you shoot them.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:enchanted_book[stored_enchantments={\"minecraft:infinity\":2}]"
+				}
+			}
+		]
+	},
+	"harm_arrows": {
+		"title": "Arrows of Harming",
+		"description": "Get a quiver of 32 Harming arrows.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:tipped_arrow{Potion:\"minecraft:harming\"} 32"
+				}
+			}
+		]
+	},
+	"harm_arrows2": {
+		"title": "Arrows of Harming II",
+		"description": "Get a quiver of 32 Harming II arrows.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:tipped_arrow{Potion:\"minecraft:strong_harming\"} 32"
+				}
+			}
+		]
+	},
+	"poison_splash": {
+		"title": "Splash Potions of Poison",
+		"description": "Get an 8-pack of poison splash potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:splash_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:splash_potion{Potion:\"minecraft:strong_poison\"} 8" 
+				}
+			}
+		]
+	},
+	"harm_lingering": {
+		"title": "Lingering Potions of Harm",
+		"description": "Get an 8-pack of lingering Harm potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lingering_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:lingering_potion{Potion:\"minecraft:strong_harming\"} 8"
+				}
+			}
+		]
+	},
+	"healing": {
+		"title": "Potions of Regeneration",
+		"description": "Get a 4-pack of regeneration potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:potion{Potion:\"minecraft:regeneration\"} 4"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,208 @@
+{
+	"crit_damage": {
+		"title": "Overwhelming Force",
+		"description": "Increase the damage you deal when you strike a critical blow.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.critical_bonus_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"crit_chance": {
+		"title": "Precision",
+		"description": "Improve your odds of striking a critical blow.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "glowing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:crit_chance",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"attack_speed": {
+		"title": "Sword Arm Training",
+		"description": "Improve the speed of your attacks.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:golden_dagger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"armor": {
+		"title": "Armor Fitting",
+		"description": "Improve the efficacy of your armor.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"weapon_gift_dagger": {
+		"title": "Gift of Weaponry: Dagger",
+		"description": "Get a diamond dagger.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_dagger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_dagger"
+				}
+			}
+		]
+	},
+	"weapon_gift_hammer": {
+		"title": "Gift of Weaponry: Hammer",
+		"description": "Get a diamond hammer.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_hammer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_hammer"
+				}
+			}
+		]
+	},
+	"weapon_gift_club": {
+		"title": "Gift of Weaponry: Club",
+		"description": "Get a diamond club.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_club"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_club"
+				}
+			}
+		]
+	},
+	"weapon_gift_spear": {
+		"title": "Gift of Weaponry: Spear",
+		"description": "Get a diamond spear.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_spear"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_spear"
+				}
+			}
+		]
+	},
+	"weapon_gift_quarterstaff": {
+		"title": "Gift of Weaponry: Quarterstaff",
+		"description": "Get a diamond quarterstaff.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_quarterstaff"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_quarterstaff"
+				}
+			}
+		]
+	},
+	"weapon_gift_glaive": {
+		"title": "Gift of Weaponry: Glaive",
+		"description": "Get a diamond glaive.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "basicweapons:diamond_glaive"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s basicweapons:diamond_glaive"
+				}
+			}
+		]
+	},
+	"armor_gift_shield": {
+		"title": "Gift of Armor: Shield",
+		"description": "Get an diamond shield.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shieldexp:diamond_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s shieldexp:diamond_shield"
+				}
+			}
+		]
+	}
+}

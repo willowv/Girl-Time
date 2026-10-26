@@ -1,0 +1,134 @@
+{
+	"djduhho546gfmm3h": {
+		"definition": "damage",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"4db3tla9kwtplt9e": {
+		"definition": "damage",
+		"x": -192,
+		"y": 96,
+		"root": false
+	},
+	"66g6nc316lcup882": {
+		"definition": "damage",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"pecxrq76n57k297p": {
+		"definition": "damage",
+		"x": -192,
+		"y": 32,
+		"root": false
+	},
+	"n4ckmjl3uzfidvd3": {
+		"definition": "damage",
+		"x": -64,
+		"y": 32,
+		"root": true
+	},
+	"p2mbgsql0a3aech8": {
+		"definition": "resistance",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"2hisuqoqc9niw9s4": {
+		"definition": "resistance",
+		"x": 32,
+		"y": -192,
+		"root": false
+	},
+	"zcfm6ojzp98uwshk": {
+		"definition": "resistance",
+		"x": -32,
+		"y": -192,
+		"root": false
+	},
+	"4f6k6mqatwj66dfz": {
+		"definition": "resistance",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"7bbc4y0yw99ohl62": {
+		"definition": "resistance",
+		"x": -32,
+		"y": -64,
+		"root": true
+	},
+	"whm2jqgur4a34xbx": {
+		"definition": "speed",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"3xuwkil0xirwn6tx": {
+		"definition": "speed",
+		"x": 192,
+		"y": 0,
+		"root": false
+	},
+	"4dv26t60ceue9bbp": {
+		"definition": "speed",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"xkou1ynlpommiknq": {
+		"definition": "speed",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"6ckf2wjq39gdcpl5": {
+		"definition": "speed",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"dodu176zqj2vlfig": {
+		"definition": "splash_regen",
+		"x": -128,
+		"y": 64,
+		"root": true
+	},
+	"ghlhrir9kelvr8x7": {
+		"definition": "splash_regen",
+		"x": 0,
+		"y": -128,
+		"root": true
+	},
+	"manh80jabqhc1eyy": {
+		"definition": "splash_speed",
+		"x": 96,
+		"y": 64,
+		"root": true
+	},
+	"mesb3sv7r3039tc3": {
+		"definition": "whistle",
+		"x": 128,
+		"y": 0,
+		"root": true
+	},
+	"r0lh8gvl1qj22z4a": {
+		"definition": "etheric_gem",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"fweh7g3sn7hayam2": {
+		"definition": "splash_speed",
+		"x": -64,
+		"y": 96,
+		"root": true
+	},
+	"fawbv6wwtha5cxdp": {
+		"definition": "splash_speed",
+		"x": 32,
+		"y": -64,
+		"root": true
+	}
+}

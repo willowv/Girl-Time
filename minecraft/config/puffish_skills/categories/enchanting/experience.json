@@ -1,0 +1,231 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(100 * (1 + 0.1 * level), 400)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"tamed": "exclude",
+				"variables": {
+					"is_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "puffish_skills:is_magic"
+							}
+						]
+					},
+					"is_harming_arrow": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "get_source"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Potion:\"minecraft:harming\"}"
+								}
+							}
+						]
+					},
+					"is_strong_harming_arrow": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "get_source"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Potion:\"minecraft:strong_harming\"}"
+								}
+							}
+						]
+					},
+					"is_healing_arrow": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "get_source"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Potion:\"minecraft:healing\"}"
+								}
+							}
+						]
+					},
+					"is_strong_healing_arrow": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{ 
+								"type": "get_source"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Potion:\"minecraft:strong_healing\"}"
+								}
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_magic",
+						"expression": "amount * 2"
+					},
+					{
+						"condition": "is_harming_arrow | is_strong_harming_arrow | is_healing_arrow | is_strong_healing_arrow",
+						"expression": "amount * 2"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"variables": {
+					"is_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "magic"
+								}
+							}
+						]
+					},
+					"is_indirect_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "indirect_magic"
+								}
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_magic",
+						"expression": "amount * 5"
+					},
+					{
+						"condition": "is_indirect_magic",
+						"expression": "amount * 5"
+					}]
+			}
+		},
+		{
+			"type": "puffish_skills:enchant_item",
+			"data": {
+				"variables": {
+					"levels": {
+						"operations": [
+							{
+								"type": "get_levels"
+							}
+						]
+					}
+				},
+				"experience": "33 * levels"
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"used_pearl": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "used:ender_pearl"
+								}
+							}
+						]
+					},
+					"used_potion": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "used:potion"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "used_pearl",
+						"expression": "10"
+					},
+					{
+						"condition": "used_potion",
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "minecraft:cured_zombie_villager"
+				},
+				"experience": "100"
+			}
+		}
+	]
+}

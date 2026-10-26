@@ -1,5 +1,11 @@
 {
 	"version": 3,
 
-	"show_warnings": true
+	"categories": [
+		"athletics",
+		"beast_mastery",
+		"enchanting",
+		"melee",
+		"ranged"
+	]
 }

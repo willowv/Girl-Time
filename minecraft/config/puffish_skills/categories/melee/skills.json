@@ -1,0 +1,164 @@
+{
+	"vgf5dgpy2fxh1n8t": {
+		"definition": "crit_damage",
+		"x": 32,
+		"y": -32,
+		"root": true
+	},
+	"yuqvaqdpl7ajduyb": {
+		"definition": "crit_chance",
+		"x": 32,
+		"y": 32,
+		"root": true
+	},
+	"cb0of9iv2nwutgxv": {
+		"definition": "attack_speed",
+		"x": -32,
+		"y": -32,
+		"root": true
+	},
+	"83rnbe6pn38vs9cu": {
+		"definition": "armor",
+		"x": -32,
+		"y": 32,
+		"root": true
+	},
+	"yojghib74rtii5b2": {
+		"definition": "crit_damage",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"g37rmbskfo81bqr7": {
+		"definition": "crit_damage",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"ktb9183273hnfrbv": {
+		"definition": "crit_damage",
+		"x": 224,
+		"y": -96,
+		"root": false
+	},
+	"9kgdmsayp8ergyla": {
+		"definition": "crit_damage",
+		"x": 224,
+		"y": -160,
+		"root": false
+	},
+	"e7zp7guodvnrl2x6": {
+		"definition": "crit_chance",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"9x5wqjwi9x8mk46e": {
+		"definition": "crit_chance",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"sjxfhkh008mjq4d3": {
+		"definition": "crit_chance",
+		"x": 224,
+		"y": 96,
+		"root": false
+	},
+	"1pxh4kj2k9oueiy3": {
+		"definition": "crit_chance",
+		"x": 224,
+		"y": 160,
+		"root": false
+	},
+	"cjpuykziancvy8jy": {
+		"definition": "attack_speed",
+		"x": -96,
+		"y": -64,
+		"root": false
+	},
+	"ss4kjhctm51y743c": {
+		"definition": "attack_speed",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"ss027jgka6uzii06": {
+		"definition": "attack_speed",
+		"x": -224,
+		"y": -96,
+		"root": false
+	},
+	"xegtr7wwuw06hire": {
+		"definition": "attack_speed",
+		"x": -224,
+		"y": -160,
+		"root": false
+	},
+	"r2id6xgznnbuqxmr": {
+		"definition": "armor",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"h8ep9bsnifhnpzfb": {
+		"definition": "armor",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"9am0ghy1uj247y07": {
+		"definition": "armor",
+		"x": -224,
+		"y": 96,
+		"root": false
+	},
+	"2j3pytp8ejel3vfz": {
+		"definition": "armor",
+		"x": -224,
+		"y": 160,
+		"root": false
+	},
+	"1n8k63ra8xr0jn97": {
+		"definition": "weapon_gift_dagger",
+		"x": 0,
+		"y": -160,
+		"root": true
+	},
+	"5q5339m1sxunsxyv": {
+		"definition": "weapon_gift_hammer",
+		"x": -32,
+		"y": -96,
+		"root": true
+	},
+	"6tn68g7iqykbwygv": {
+		"definition": "weapon_gift_club",
+		"x": 32,
+		"y": -96,
+		"root": true
+	},
+	"brycx5cmm3abf40l": {
+		"definition": "weapon_gift_spear",
+		"x": -32,
+		"y": 96,
+		"root": true
+	},
+	"0kn328rmwdlegzfm": {
+		"definition": "weapon_gift_quarterstaff",
+		"x": 32,
+		"y": 96,
+		"root": true
+	},
+	"xfwkkegrmplh0l1g": {
+		"definition": "weapon_gift_glaive",
+		"x": -32,
+		"y": 160,
+		"root": true
+	},
+	"3mfeojotnxxks4yf": {
+		"definition": "armor_gift_shield",
+		"x": 32,
+		"y": 160,
+		"root": true
+	}
+}

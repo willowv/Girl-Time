@@ -1,0 +1,188 @@
+{
+	"4jrxpogu3h1z9x45": {
+		"definition": "iron_gift",
+		"x": 128,
+		"y": 96,
+		"root": false
+	},
+	"5vd01ely5o91oqhy": {
+		"definition": "food_gift",
+		"x": -128,
+		"y": 96,
+		"root": false
+	},
+	"lcj95f1lzaeet2dv": {
+		"definition": "mining",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"yk03eq7m7hlhubz2": {
+		"definition": "mining",
+		"x": 32,
+		"y": 64,
+		"root": true
+	},
+	"q5ggky4lzs2jijjp": {
+		"definition": "stamina",
+		"x": -32,
+		"y": 64,
+		"root": true
+	},
+	"1ldym6hozh0iyc3i": {
+		"definition": "stamina",
+		"x": -64,
+		"y": 128,
+		"root": false
+	},
+	"st9ed401j2v4mi8t": {
+		"definition": "mining",
+		"x": 128,
+		"y": 160,
+		"root": false
+	},
+	"lepuycut2sfebq2e": {
+		"definition": "stamina",
+		"x": -128,
+		"y": 160,
+		"root": false
+	},
+	"vx1unsv9ffx0ooku": {
+		"definition": "mining",
+		"x": 192,
+		"y": 128,
+		"root": false
+	},
+	"2p6v10lvaa3vo6ge": {
+		"definition": "mining",
+		"x": 224,
+		"y": 64,
+		"root": false
+	},
+	"wwdj2ifylpfhvo0m": {
+		"definition": "stamina",
+		"x": -192,
+		"y": 128,
+		"root": false
+	},
+	"hlr2ytwu1xbuogzl": {
+		"definition": "stamina",
+		"x": -224,
+		"y": 64,
+		"root": false
+	},
+	"j6lnwgx0kioti8fz": {
+		"definition": "speed",
+		"x": -32,
+		"y": -64,
+		"root": true
+	},
+	"m9qdel19cij6g0zr": {
+		"definition": "speed",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"4x2ahbojkt0sdnxw": {
+		"definition": "speed",
+		"x": -128,
+		"y": -160,
+		"root": false
+	},
+	"v3ept6ps3xij4ol7": {
+		"definition": "speed",
+		"x": -192,
+		"y": -128,
+		"root": false
+	},
+	"n7b997czahahcsr8": {
+		"definition": "speed",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"1kmgwy4ktdr3mw2p": {
+		"definition": "acrobatics",
+		"x": -32,
+		"y": 0,
+		"root": true
+	},
+	"ieszrifucrdm7fx6": {
+		"definition": "acrobatics",
+		"x": -96,
+		"y": -32,
+		"root": false
+	},
+	"ih9bbnh4i57hh2r8": {
+		"definition": "acrobatics",
+		"x": -128,
+		"y": -96,
+		"root": false
+	},
+	"98f8lnvjlnyd5d0j": {
+		"definition": "regen",
+		"x": 32,
+		"y": -64,
+		"root": true
+	},
+	"n4kla9qv2aqykbm1": {
+		"definition": "regen",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"ls39bfiwdw1dugt9": {
+		"definition": "regen",
+		"x": 128,
+		"y": -160,
+		"root": false
+	},
+	"dgbkqd0ihqm75s4t": {
+		"definition": "regen",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"1az1qwzblb6u7mxh": {
+		"definition": "regen",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"gfvppzilnpjjfpyj": {
+		"definition": "acrobatics",
+		"x": -160,
+		"y": -32,
+		"root": false
+	},
+	"x3xsw5d2zyibey44": {
+		"definition": "acrobatics",
+		"x": -224,
+		"y": 0,
+		"root": false
+	},
+	"di6kmx3abz3nllr0": {
+		"definition": "bundle",
+		"x": 96,
+		"y": -32,
+		"root": true
+	},
+	"68pvvz23g9s0fuyn": {
+		"definition": "bundle",
+		"x": 128,
+		"y": -96,
+		"root": true
+	},
+	"juuce5horspojou5": {
+		"definition": "bundle",
+		"x": 160,
+		"y": -32,
+		"root": true
+	},
+	"rpzsksg7jgl49cai": {
+		"definition": "atlas",
+		"x": 32,
+		"y": 0,
+		"root": true
+	}
+}

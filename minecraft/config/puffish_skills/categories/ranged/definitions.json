@@ -1,0 +1,120 @@
+{
+	"stealth": {
+		"title": "Stealth",
+		"description": "Make it harder for enemies to detect you.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "invisibility"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"value": 0.16,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"dodge_chance": {
+		"title": "Evasion",
+		"description": "Improve the odds of avoiding incoming attacks.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:dodge_chance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arrow_speed": {
+		"title": "Archery",
+		"description": "Shoot arrows further, faster, with more force.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:arrow_velocity",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"draw_speed": {
+		"title": "Focus",
+		"description": "Improve the speed with which you can load and aim your weapon.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"hunting": {
+		"title": "Hunting",
+		"description": "Increase the odds of recovering rare materials from slain foes.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "minecraft:luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.bonus_rare_loot_rolls",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"weapon_gift_arrows": {
+		"title": "Gift of Weaponry: Spectral Arrows",
+		"description": "Get a quiver of 64 spectral arrows.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:spectral_arrow 64"
+				}
+			}
+		]
+	}
+}

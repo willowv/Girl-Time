@@ -1,0 +1,172 @@
+{
+	"damage": {
+		"title": "Beast Damage",
+		"description": "Increase damage dealt by tamed creatures.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lead"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:tamed_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"resistance": {
+		"title": "Beast Resilience",
+		"description": "Decrease damage taken by tamed creatures.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_horse_armor"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:tamed_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"speed": {
+		"title": "Riding",
+		"description": "Ride your horse faster.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "saddle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mount_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"thirst": {
+		"title": "Thrill of the Hunt",
+		"description": "Restore some health based on damage you deal.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"splash_regen": {
+		"title": "Splash potions of Regeneration",
+		"description": "Get an 8-pack of regeneration splash potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:splash_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:splash_potion{Potion:\"minecraft:long_regeneration\"} 8"
+				}
+			}
+		]
+	},
+	"splash_fire_resist": {
+		"title": "Splash potions of Fire Resistance",
+		"description": "Get an 8-pack of fire resistance splash potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:splash_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:splash_potion{Potion:\"minecraft:long_fire_resistance\"} 8"
+				}
+			}
+		]
+	},
+	"splash_speed": {
+		"title": "Splash potions of Speed",
+		"description": "Get an 8-pack of speed splash potions.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:splash_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:splash_potion{Potion:\"minecraft:long_swiftness\"} 8"
+				}
+			}
+		]
+	},
+	"whistle": {
+		"title": "Gift of the Horse Queen",
+		"description": "Get a magic whistle that summons your horse.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "horse_whistle:horse_whistle_item"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s horse_whistle:horse_whistle_item"
+				}
+			}
+		]
+	},
+	"etheric_gem": {
+		"title": "Gift of the Sunbeam",
+		"description": "Get a magic gem that grants animal friends the ability to return from the dead via your dreams.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "respawnablepets:etheric_gem"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s respawnablepets:etheric_gem"
+				}
+			}
+		]
+	}
+}

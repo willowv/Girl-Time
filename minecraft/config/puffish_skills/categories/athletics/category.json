@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Athletics",
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "dolphins_grace"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

@@ -1,0 +1,211 @@
+{
+	"health": {
+		"title": "Swim Speed",
+		"description": "Move faster underwater.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "water_breathing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.water_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"regen": {
+		"title": "Metabolism",
+		"description": "Get more healing from food.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"speed": {
+		"title": "Speed",
+		"description": "Move faster.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina": {
+		"title": "Stamina",
+		"description": "Get hungry slower.",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_carrot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"acrobatics": {
+		"title": "Acrobatics",
+		"description": "Jump higher and take less damage from falling.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:jump",
+					"value": 0.045,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining": {
+		"title": "Mining",
+		"description": "Break blocks faster.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:breaking_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_gift": {
+		"title": "Gift of Iron",
+		"description": "Get 20x iron ingots.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:iron_ingot 20"
+				}
+			}
+		]
+	},
+	"food_gift": {
+		"title": "Gift of Food",
+		"description": "Get 20x steaks.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_beef"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:cooked_beef 20"
+				}
+			}
+		]
+	},
+	"bundle": {
+		"title": "Gift of Luggage",
+		"description": "Get a special dyeable bag for holding bits and bobs.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bundle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s minecraft:bundle"
+				}
+			}
+		]
+	},
+	"atlas": {
+		"title": "Gift of Navigation",
+		"description": "Get a magic atlas that tracks where you've been.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aa4-atlas:antique_atlas"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "/give @s aa4-atlas:antique_atlas"
+				}
+			}
+		]
+	}
+}

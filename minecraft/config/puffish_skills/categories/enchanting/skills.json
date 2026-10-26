@@ -1,0 +1,182 @@
+{
+	"jukskrhtfn6ulcic": {
+		"definition": "anvil",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"z5sqif9wwi5pd9f7": {
+		"definition": "repair_cost",
+		"x": -64,
+		"y": -32,
+		"root": false
+	},
+	"c2u8otxcy8z0po4c": {
+		"definition": "repair_cost",
+		"x": -32,
+		"y": -96,
+		"root": false
+	},
+	"fl3p7dijvybxpfuo": {
+		"definition": "experience",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"0axsh44vh4b6qhvp": {
+		"definition": "experience",
+		"x": 32,
+		"y": -96,
+		"root": false
+	},
+	"vu13l3oyplkik57v": {
+		"definition": "mending",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"vtd5h373cj2wrm7k": {
+		"definition": "silk_touch",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"90dzhl7eje2rkqtr": {
+		"definition": "flame",
+		"x": 32,
+		"y": 96,
+		"root": false
+	},
+	"y2ga19i7wwz7qahx": {
+		"definition": "infinity",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"kdz6a92y63xijiw9": {
+		"definition": "harm_arrows",
+		"x": -160,
+		"y": 64,
+		"root": true
+	},
+	"5az2fvjozh2kmj83": {
+		"definition": "harm_arrows",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"8cl6qigr0vx2tn03": {
+		"definition": "harm_arrows2",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"hhwglrkgjnqsoip2": {
+		"definition": "harm_arrows2",
+		"x": -160,
+		"y": -128,
+		"root": false
+	},
+	"mwq1nzd98e7x1q4b": {
+		"definition": "poison_splash",
+		"x": 160,
+		"y": 64,
+		"root": true
+	},
+	"426ds28vdgob4k25": {
+		"definition": "harm_lingering",
+		"x": 160,
+		"y": 0,
+		"root": true
+	},
+	"xpgdribpjf12jfqj": {
+		"definition": "poison_splash",
+		"x": 160,
+		"y": -64,
+		"root": true
+	},
+	"47rl0wd7rl5kbd9m": {
+		"definition": "harm_lingering",
+		"x": 160,
+		"y": -128,
+		"root": true
+	},
+	"qr39s0bl8y26bbem": {
+		"definition": "healing",
+		"x": -128,
+		"y": 128,
+		"root": true
+	},
+	"2qxeysczai7gozkd": {
+		"definition": "healing",
+		"x": -64,
+		"y": 160,
+		"root": true
+	},
+	"7ledy80ut5sh939y": {
+		"definition": "healing",
+		"x": 64,
+		"y": 160,
+		"root": true
+	},
+	"oq8nwgy96dlsbnt7": {
+		"definition": "healing",
+		"x": 128,
+		"y": 128,
+		"root": true
+	},
+	"swooxau1t9sbnwt7": {
+		"definition": "magic_resistance",
+		"x": -96,
+		"y": -160,
+		"root": true
+	},
+	"izgvi756p4wf5e02": {
+		"definition": "magic_resistance",
+		"x": -32,
+		"y": -160,
+		"root": true
+	},
+	"1kbz4c2y2cj4251e": {
+		"definition": "magic_resistance",
+		"x": 32,
+		"y": -160,
+		"root": true
+	},
+	"rdvhh6tqd8omhs3d": {
+		"definition": "magic_resistance",
+		"x": 96,
+		"y": -160,
+		"root": true
+	},
+	"lyv9tt6knin1u6ud": {
+		"definition": "repair_cost",
+		"x": -96,
+		"y": -96,
+		"root": false
+	},
+	"e9on7mysfec9w6vs": {
+		"definition": "repair_cost",
+		"x": -160,
+		"y": -192,
+		"root": false
+	},
+	"v8f7j6wju36rcdua": {
+		"definition": "experience",
+		"x": 96,
+		"y": -96,
+		"root": false
+	},
+	"o2timc20kapftqzl": {
+		"definition": "experience",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"50figi8826df9hlu": {
+		"definition": "mending",
+		"x": -32,
+		"y": 96,
+		"root": false
+	}
+}

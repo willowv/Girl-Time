@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Beast Mastery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "bone"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/husbandry.png"
+}

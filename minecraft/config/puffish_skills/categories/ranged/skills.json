@@ -1,0 +1,164 @@
+{
+	"e7z7irya729cscoh": {
+		"definition": "stealth",
+		"x": -81.20234037294662,
+		"y": -98.94533803043034,
+		"root": false
+	},
+	"l3yfpjvx4lblnuko": {
+		"definition": "dodge_chance",
+		"x": 35.55649491325454,
+		"y": -53.214055187362895,
+		"root": true
+	},
+	"s5xl05vieo6n9ll7": {
+		"definition": "arrow_speed",
+		"x": 53.21405518736291,
+		"y": 35.556494913254525,
+		"root": true
+	},
+	"p4no4lbjucgxtnnw": {
+		"definition": "draw_speed",
+		"x": -62.77025794580675,
+		"y": 12.485780609032204,
+		"root": true
+	},
+	"z0gwpb5np1ajehqz": {
+		"definition": "weapon_gift_arrows",
+		"x": 29.564145040361176,
+		"y": -12.245869835682875,
+		"root": true
+	},
+	"sll6xl2jpkfkpefe": {
+		"definition": "weapon_gift_arrows",
+		"x": -29.564145040361176,
+		"y": 12.245869835682871,
+		"root": true
+	},
+	"b1rk9ycm4ag7mwr1": {
+		"definition": "hunting",
+		"x": -12.485780609032231,
+		"y": 62.77025794580675,
+		"root": true
+	},
+	"je9rgptjknxcjuzb": {
+		"definition": "stealth",
+		"x": -126.59439649921322,
+		"y": -144.35324303596366,
+		"root": false
+	},
+	"k76tjfvx0bu87f1h": {
+		"definition": "stealth",
+		"x": -171.9190924408367,
+		"y": -189.68348809086953,
+		"root": false
+	},
+	"lrtgc4qzszc0ed1y": {
+		"definition": "stealth",
+		"x": -217.21623857054135,
+		"y": -234.98320301941936,
+		"root": false
+	},
+	"mn7auzwgolmgxofo": {
+		"definition": "stealth",
+		"x": -35.55649491325454,
+		"y": -53.214055187362895,
+		"root": true
+	},
+	"3ti37v5rm0aeqo6z": {
+		"definition": "dodge_chance",
+		"x": 81.20234037294662,
+		"y": -98.94533803043034,
+		"root": false
+	},
+	"ux6o697u8rjsnlcq": {
+		"definition": "dodge_chance",
+		"x": 126.59439649921322,
+		"y": -144.35324303596366,
+		"root": false
+	},
+	"cl2f97epj6gcc7iu": {
+		"definition": "dodge_chance",
+		"x": 171.9190924408367,
+		"y": -189.68348809086953,
+		"root": false
+	},
+	"91orr9kpnkdct5ma": {
+		"definition": "dodge_chance",
+		"x": 217.21623857054135,
+		"y": -234.98320301941936,
+		"root": false
+	},
+	"kszymjdkpcuin47j": {
+		"definition": "draw_speed",
+		"x": -122.48836297372274,
+		"y": 37.15643868857116,
+		"root": false
+	},
+	"6u7qpjl2wc8yxdj4": {
+		"definition": "draw_speed",
+		"x": -181.81058486306028,
+		"y": 61.71637733820698,
+		"root": false
+	},
+	"tgq7i4ls8rsvuq7t": {
+		"definition": "draw_speed",
+		"x": -241.03528068685333,
+		"y": 86.2438024684083,
+		"root": false
+	},
+	"7ybel7hrw5nrvpjb": {
+		"definition": "draw_speed",
+		"x": -300.2212274951949,
+		"y": 110.75745826479773,
+		"root": false
+	},
+	"w69ta0m7c55rc0a3": {
+		"definition": "arrow_speed",
+		"x": 112.88592183658945,
+		"y": 60.338782313727705,
+		"root": false
+	},
+	"642yov34at5goqrc": {
+		"definition": "arrow_speed",
+		"x": 172.19956637427617,
+		"y": 84.91942852204822,
+		"root": false
+	},
+	"lnmhuv1z1piikbw2": {
+		"definition": "arrow_speed",
+		"x": 231.42125903960152,
+		"y": 109.45410391815216,
+		"root": false
+	},
+	"b7f7y51w89jrogn3": {
+		"definition": "arrow_speed",
+		"x": 290.6058156240261,
+		"y": 133.9711160119769,
+		"root": false
+	},
+	"xe30qmh1v5dq41lt": {
+		"definition": "hunting",
+		"x": -37.156438688571235,
+		"y": 122.48836297372272,
+		"root": false
+	},
+	"gqb6x6j2hprhaj6g": {
+		"definition": "hunting",
+		"x": -61.71637733820705,
+		"y": 181.81058486306028,
+		"root": false
+	},
+	"93q5kmyhgln05gb9": {
+		"definition": "hunting",
+		"x": -86.24380246840829,
+		"y": 241.03528068685333,
+		"root": false
+	},
+	"2q51n8y069cxzya7": {
+		"definition": "hunting",
+		"x": -110.75745826479786,
+		"y": 300.2212274951949,
+		"root": false
+	}
+}
