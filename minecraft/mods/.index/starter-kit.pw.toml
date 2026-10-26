@@ -1,20 +1,20 @@
-filename = 'starterkit-1.20.1-8.3.jar'
+filename = 'starterkit-1.20.1-9.0.jar'
 name = 'Starter Kit'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.20.1-8.3-fabric+forge+neo'
+x-prismlauncher-version-number = '1.20.1-9.0-fabric+forge+neo'
 
 [download]
-hash = 'f24916ce00d68e4b35357c233a03d10fc13fcf07ac99b9786dacd444ef81b5d3d83768f4751cbbcde76bd09429fa0b3efa1bcbb06a8bd1bcde63f910484535b3'
+hash = '1e950ba648cb89a88d53706b3b7a35457733478818cebae3e8c37d4a18cfaeb2a280a2324735537b6efafdb5f4380a3e7529ca2b6f4242f81fa45aba2c78e273'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/6L3ydNi8/versions/3MIT3w94/starterkit-1.20.1-8.3.jar'
+url = 'https://cdn.modrinth.com/data/6L3ydNi8/versions/KZCNS3I0/starterkit-1.20.1-9.0.jar'
 
 [update.modrinth]
 mod-id = '6L3ydNi8'
-version = '3MIT3w94'
+version = 'KZCNS3I0'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'e0M1UDsY'
