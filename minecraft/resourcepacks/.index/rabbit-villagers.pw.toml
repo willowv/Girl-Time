@@ -1,9 +1,13 @@
-filename = 'RabbitVillager v.3.0 1.21.11.zip'
+filename = 'RabbitVillager v.4.0 26.2.zip'
 name = 'Rabbit Villagers'
-side = 'client'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
     '1.19.4',
     '1.20',
     '1.20.1',
@@ -23,17 +27,21 @@ x-prismlauncher-mc-versions = [
     '1.21.8',
     '1.21.9',
     '1.21.10',
-    '1.21.11'
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3'
+x-prismlauncher-version-number = '4'
 
 [download]
-hash = '387e5c67566fe2a2cbe0af53bea0bd44a5025100ebc6459ca0f6ef2fa0b86d28541580ac4d04a380ca5e0526c33228c8196ec8fa434c9b930dd191aa5197095e'
+hash = 'd3d7e400961a55061e9c5c356725e0e6a12d8f2f093da04306256af3323166b04fb814cc4a7a50033a336ef246df313eae09b18dfffbf0a274bc4c09d19d08ff'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vMyC2JTv/versions/Zh7pMAgA/RabbitVillager v.3.0 1.21.11.zip'
+url = 'https://cdn.modrinth.com/data/vMyC2JTv/versions/bArAb3Ll/RabbitVillager v.4.0 26.2.zip'
 
 [update.modrinth]
 mod-id = 'vMyC2JTv'
-version = 'Zh7pMAgA'
+version = 'bArAb3Ll'

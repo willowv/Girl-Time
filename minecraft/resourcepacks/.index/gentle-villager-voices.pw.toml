@@ -1,18 +1,18 @@
 filename = 'Gentle Villager Voices.zip'
 name = 'Gentle Villager Voices'
-side = 'client'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.0'
+x-prismlauncher-version-number = '2.0.0'
 
 [download]
-hash = 'f6916e451d0d1542ad407c041bf53f6bbbf4cb73b059704c965d5baa74eacb3cc61a252a49d8784f569f2b9e67570707b75433d9c267dbb5c80f58a926b55d50'
+hash = '60fd5ede7ac7d0b50c693830ba9f418a62973f13728ef11c18f7a6e42362a0730df24c7110272f05a60dfae9263d02d5001926b7a06631b26c45c86addbd4c93'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/xNxSXdEC/versions/hDoDeo9S/Gentle Villager Voices.zip'
+url = 'https://cdn.modrinth.com/data/xNxSXdEC/versions/A4vivSqF/Gentle Villager Voices.zip'
 
 [update.modrinth]
 mod-id = 'xNxSXdEC'
-version = 'hDoDeo9S'
+version = 'A4vivSqF'

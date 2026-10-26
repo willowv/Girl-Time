@@ -1,18 +1,18 @@
-filename = 'Lads-Cassettes-1.1-26.2.zip'
+filename = 'Novel-Cassettes-1.2-26.3.zip'
 name = "Novel Cassettes (Formerly Lad's Cassettes)"
-side = 'client'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1'
+x-prismlauncher-version-number = '1.2'
 
 [download]
-hash = '0a248ca331e5d4a7955a7571573b0eace623d08ec19f8d9ebf66119874604661491bf399b038a0448e331845cb84468fd32c96c90d1ec5450d1f53b92b32c008'
+hash = '31999623b3877cd7ad2608d6d7c15ecd3f0b27a97aae99d8399d3960392a74faa95fb53e46e0a04e35b9fa2b30d88457d4e622dc3a2a62067d1998c640e30c4f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/K6BM5tRC/versions/vGkZg6Ye/Lads-Cassettes-1.1-26.2.zip'
+url = 'https://cdn.modrinth.com/data/K6BM5tRC/versions/QIVBi64g/Novel-Cassettes-1.2-26.3.zip'
 
 [update.modrinth]
 mod-id = 'K6BM5tRC'
-version = 'vGkZg6Ye'
+version = 'QIVBi64g'

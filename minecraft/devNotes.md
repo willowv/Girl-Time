@@ -21,8 +21,8 @@
 - [X] Turn off vanilla villages? They're just not very pretty in comparison and are missing the bounty board and waystone
 - [X] Replace slurp bags with bundles
 - [X] Try adding seamless trading back in? I genuinely don't know why I removed it, seems to work fine
-- [ ] Update voices resource pack on Modrinth and recommend the Quieter Mobs mod as accompaniment
-- [ ] Reduce the weight of or remove the Villager laugh sound
+- [X] Update voices resource pack on Modrinth and recommend the Quieter Mobs mod as accompaniment
+- [X] Reduce the weight of or remove the Villager laugh sound
 - [X] Remove dynamic sound culling; Quieter Mobs is sufficient on its own
 - [X] Look at WTHIT as an alternative to Jade, see what's different about it
 
