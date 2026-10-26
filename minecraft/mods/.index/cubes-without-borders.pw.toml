@@ -1,20 +1,100 @@
-filename = 'cwb-fabric-3.0.0+mc1.20.jar'
+filename = 'cwb-5.0.0+1.20.0.fabric.jar'
 name = 'Cubes Without Borders'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.0+1.20'
+x-prismlauncher-version-number = '5.0.0+1.20.0.fabric'
 
 [download]
-hash = 'cceb1a648c0465db1232a6a65ceefe4d04af54fdc909a40ee86ade2f2c743d5e96c55f73ab83f515dd53fa36095fe893d218ad56c51c53ad517e3b57441a5f2b'
+hash = '9538898ee85a38555dc3027684c109d2ce44e296fde4337ac18ad527e3295f0c786a89d0fdca71e50bc2980d8f9584693599b92a4482ab6afad2e12f4b2f7c66'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ETlrkaYF/versions/KpTt0KNS/cwb-fabric-3.0.0%2Bmc1.20.jar'
+url = 'https://cdn.modrinth.com/data/ETlrkaYF/versions/tjtmtBtH/cwb-5.0.0%2B1.20.0.fabric.jar'
 
 [update.modrinth]
 mod-id = 'ETlrkaYF'
-version = 'KpTt0KNS'
+version = 'tjtmtBtH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KxYAzYLi'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QRT35UEn'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'CnalMsa0'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T0A01nz3'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UIexcMP1'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kYq5qkSL'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XtOSFWzb'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'PxF3g9Xm'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2ydKrmkL'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kio1kLH4'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pUo9xEXY'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'snyXnG3w'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vBzTIyb1'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HwGFylw6'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'CVIOn7aS'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'z1ozGOqh'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QyvWSZ5S'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'eNxaurDu'
+type = 'INCOMPATIBLE'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'mOgUt4GM'
@@ -23,3 +103,7 @@ type = 'OPTIONAL'
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LFTK8ING'
+type = 'INCOMPATIBLE'
