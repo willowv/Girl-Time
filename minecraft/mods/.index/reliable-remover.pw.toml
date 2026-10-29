@@ -1,39 +1,23 @@
-filename = 'reliable_remover-3.8.2+1.20.1-fabric.jar'
+filename = 'reliable_remover-3.8.3+1.20.1-fabric.jar'
 name = 'Reliable Remover'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.8.2+1.20.1-fabric'
+x-prismlauncher-version-number = '3.8.3+1.20.1-fabric'
 
 [download]
-hash = '73337a9539983977510e2d46984894b7d78749f78730a2b7df97451f98091264ccf2d1f7305a48f2875f097e805a68fe773331072661692c1cc5087820c3651f'
+hash = '85af743fff6d202c49328bcf83646d6343c08128a6f91203c1d5d7346e92aedecb2f5c657aee03e785128c68e429a887f677d89dcdf69b558ad4ebb22208fda4'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/pLxsKvNt/versions/u2IZ35lh/reliable_remover-3.8.2%2B1.20.1-fabric.jar'
+url = 'https://cdn.modrinth.com/data/pLxsKvNt/versions/WQ5Jgge0/reliable_remover-3.8.3%2B1.20.1-fabric.jar'
 
 [update.modrinth]
 mod-id = 'pLxsKvNt'
-version = 'u2IZ35lh'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Hl4ARA1z'
-type = 'REQUIRED'
+version = 'WQ5Jgge0'
 
 [[x-prismlauncher-dependencies]]
 addonId = '5VolwT6c'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'fRiHVvU7'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -41,5 +25,21 @@ addonId = 'P7dR8mSH'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Hl4ARA1z'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
 type = 'OPTIONAL'

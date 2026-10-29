@@ -1,20 +1,20 @@
-filename = 'reliable_recipes-3.8.1+1.20.1-fabric.jar'
+filename = 'reliable_recipes-3.8.2+1.20.1-fabric.jar'
 name = 'Reliable Recipes'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.8.1+1.20.1-fabric'
+x-prismlauncher-version-number = '3.8.2+1.20.1-fabric'
 
 [download]
-hash = '87d536f2c8c96646a82e052aa65bb91b088a6e55aa9d528d5b5f0cd72e1c4976424695874cb26ebea0510b36aa1d3d2d43442c9f802782f2414003e32bd8b400'
+hash = '6635282366aa93fe8ac04a9db3eea9ac2c910a2176a1d73ddd441f28342ea834b2edf6b3895708f3c7b8330050d0818b2d8748f545bd7552dc5ffb9fb6812400'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Hl4ARA1z/versions/3cUQOSrM/reliable_recipes-3.8.1%2B1.20.1-fabric.jar'
+url = 'https://cdn.modrinth.com/data/Hl4ARA1z/versions/QnaDPC92/reliable_recipes-3.8.2%2B1.20.1-fabric.jar'
 
 [update.modrinth]
 mod-id = 'Hl4ARA1z'
-version = '3cUQOSrM'
+version = 'QnaDPC92'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'u6dRKJwZ'
@@ -25,7 +25,7 @@ addonId = '5VolwT6c'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
+addonId = 'fRiHVvU7'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -33,9 +33,9 @@ addonId = 'mOgUt4GM'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'fRiHVvU7'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
