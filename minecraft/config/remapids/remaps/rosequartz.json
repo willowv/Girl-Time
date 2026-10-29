@@ -1,8 +1,0 @@
-{
-  "remaps": [
-    {
-      "source": "biomesoplenty:rose_quartz_chunk",
-      "target": "create:rose_quartz"
-    }
-  ]
-}
