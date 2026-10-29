@@ -1,14 +1,17 @@
-.gitignore
 .git
+.gitignore
 minecraft/.cache
 minecraft/.fabric
 minecraft/.mixin.out
+minecraft/EnhancedCats
+minecraft/Mod notes.txt
 minecraft/coremods
 minecraft/crash-reports
-minecraft/ct-dumps
+minecraft/ct_dumps
 minecraft/data
 minecraft/defaultconfigs
-minecraft/EnhancedCats
+minecraft/emi.json
+minecraft/irisUpdateInfo.json
 minecraft/logs
 minecraft/moddata
 minecraft/moonlight-global-datapacks
@@ -18,8 +21,5 @@ minecraft/screenshots
 minecraft/server-resource-packs
 minecraft/sparsestructures
 minecraft/texturepacks
-minecraft/emi.json
-minecraft/irisUpdateInfo.json
 minecraft/usercache.json
 minecraft/usernamecache.json
-minecraft/Mod notes.txt
